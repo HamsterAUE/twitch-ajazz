@@ -46,7 +46,10 @@ class HiiSmiles(Action):
                 "query": query,
                 "variables": {"query": streamer, "limit": 1}
             }
-            response = requests.post(url, json=payload, timeout=3)
+            proxies = {
+                "http": "http://127.0.0.1:40000"
+            }
+            response = requests.post(url, json=payload,proxies=proxies, timeout=(3.05, 7))
 
             if response.status_code == 200:
                 data = response.json()
@@ -93,7 +96,6 @@ class HiiSmiles(Action):
 
         except Exception as e:
             Logger.error(f"Cant get 7TV emotes by Exception: {e}")
-            self.cached_emotes = []
 
 
     def get_current_twitch_streamer(self):

@@ -1,0 +1,59 @@
+2026-06-06 20:05:55,831 - StreamDock - INFO - Plugin Start
+2026-06-06 20:05:56,839 - StreamDock - INFO - WebSocket connected
+2026-06-06 20:05:56,845 - StreamDock - INFO - willAppear
+2026-06-06 20:05:56,847 - StreamDock - INFO - Loading action module: actions
+2026-06-06 20:05:56,847 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-06 20:05:56,847 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-06 20:05:56,848 - StreamDock - INFO - Loading action module: custom
+2026-06-06 20:05:56,849 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-06 20:05:56,849 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-06 20:05:56,849 - StreamDock - INFO - Loading action module: time
+2026-06-06 20:05:56,849 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-06 20:05:56,849 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
+2026-06-06 20:05:56,851 - StreamDock - INFO - titleParametersDidChange
+2026-06-06 20:05:57,383 - StreamDock - INFO - deviceDidConnect
+2026-06-06 20:06:21,626 - StreamDock - INFO - Plugin stopped
+2026-06-06 20:06:36,016 - StreamDock - INFO - Plugin Start
+2026-06-06 20:06:37,019 - StreamDock - INFO - WebSocket connected
+2026-06-06 20:06:37,027 - StreamDock - INFO - willAppear
+2026-06-06 20:06:37,029 - StreamDock - INFO - Loading action module: actions
+2026-06-06 20:06:37,029 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-06 20:06:37,029 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-06 20:06:37,031 - StreamDock - INFO - Loading action module: custom
+2026-06-06 20:06:37,031 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-06 20:06:37,031 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-06 20:06:37,032 - StreamDock - INFO - Loading action module: time
+2026-06-06 20:06:37,032 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-06 20:06:37,032 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
+2026-06-06 20:06:37,032 - StreamDock - INFO - titleParametersDidChange
+2026-06-06 20:06:37,644 - StreamDock - INFO - deviceDidConnect
+2026-06-06 20:06:48,503 - StreamDock - INFO - keyDown
+2026-06-06 20:06:48,553 - StreamDock - INFO - keyUp
+2026-06-06 20:06:48,554 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-06 20:06:56,214 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Read timed out.
+2026-06-06 20:06:56,214 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-06 20:07:21,409 - StreamDock - INFO - keyDown
+2026-06-06 20:07:21,460 - StreamDock - INFO - keyUp
+2026-06-06 20:07:21,461 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-06 20:07:29,262 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Read timed out.
+2026-06-06 20:07:29,262 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-06 20:16:27,069 - StreamDock - INFO - Plugin stopped
+2026-06-06 20:16:48,987 - StreamDock - INFO - Plugin Start
+2026-06-06 20:16:50,002 - StreamDock - INFO - WebSocket connected
+2026-06-06 20:16:50,016 - StreamDock - INFO - willAppear
+2026-06-06 20:16:50,017 - StreamDock - INFO - Loading action module: actions
+2026-06-06 20:16:50,017 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-06 20:16:50,018 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-06 20:16:50,019 - StreamDock - INFO - Loading action module: custom
+2026-06-06 20:16:50,019 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-06 20:16:50,019 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-06 20:16:50,021 - StreamDock - INFO - Loading action module: time
+2026-06-06 20:16:50,021 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-06 20:16:50,021 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
+2026-06-06 20:16:50,021 - StreamDock - INFO - titleParametersDidChange
+2026-06-06 20:16:50,548 - StreamDock - INFO - deviceDidConnect
+2026-06-06 20:17:20,540 - StreamDock - INFO - keyDown
+2026-06-06 20:17:20,591 - StreamDock - INFO - keyUp
+2026-06-06 20:17:20,592 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-06 20:17:22,620 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
+2026-06-06 20:17:22,620 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
