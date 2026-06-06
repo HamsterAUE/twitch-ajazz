@@ -1,0 +1,25 @@
+2026-06-06 19:51:04,759 - StreamDock - INFO - Plugin Start
+2026-06-06 19:52:20,480 - StreamDock - INFO - Plugin Start
+2026-06-06 19:52:21,490 - StreamDock - INFO - WebSocket connected
+2026-06-06 19:52:21,500 - StreamDock - INFO - willAppear
+2026-06-06 19:52:21,501 - StreamDock - INFO - Loading action module: actions
+2026-06-06 19:52:21,501 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-06 19:52:21,501 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-06 19:52:21,503 - StreamDock - INFO - Loading action module: custom
+2026-06-06 19:52:21,503 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-06 19:52:21,503 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-06 19:52:21,504 - StreamDock - INFO - Loading action module: time
+2026-06-06 19:52:21,504 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-06 19:52:21,504 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
+2026-06-06 19:52:21,504 - StreamDock - INFO - titleParametersDidChange
+2026-06-06 19:52:22,210 - StreamDock - INFO - deviceDidConnect
+2026-06-06 19:52:28,888 - StreamDock - INFO - keyDown
+2026-06-06 19:52:28,939 - StreamDock - INFO - keyUp
+2026-06-06 19:52:28,940 - StreamDock - ERROR - WebSocket error: update_cache() takes 2 positional arguments but 3 were given
+2026-06-06 19:52:30,496 - StreamDock - INFO - keyDown
+2026-06-06 19:52:30,547 - StreamDock - INFO - keyUp
+2026-06-06 19:52:30,548 - StreamDock - ERROR - WebSocket error: update_cache() takes 2 positional arguments but 3 were given
+2026-06-06 19:52:32,106 - StreamDock - INFO - keyDown
+2026-06-06 19:52:32,155 - StreamDock - INFO - keyUp
+2026-06-06 19:52:32,156 - StreamDock - ERROR - WebSocket error: update_cache() takes 2 positional arguments but 3 were given
+2026-06-06 19:57:29,558 - StreamDock - INFO - Plugin stopped

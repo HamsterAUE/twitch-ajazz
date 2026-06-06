@@ -183,7 +183,7 @@ class HiiSmiles(Action):
             return
         if detected_streamer != self.current_streamer:
             # Вызываем метод обновления кэша
-            self.update_cache(self, detected_streamer)
+            self.update_cache(detected_streamer)
 
         valid_greeting_emotes = self.filter_hi_emotes()
 
