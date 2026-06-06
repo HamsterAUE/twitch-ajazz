@@ -1,0 +1,11 @@
+cryptography==44.0.2
+Pillow==11.1.0
+Requests==2.32.3
+websocket_client==1.8.0
+pyinstaller==6.12.0
+pygetwindow~=0.0.9
+pip~=25.0.1
+wheel~=0.45.1
+setuptools~=78.1.0
+pyperclip == 1.11.0
+pyautogui == 0.9.54

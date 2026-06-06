@@ -1,0 +1,57 @@
+{
+  "Actions": [
+    {
+      "UUID": "com.gamzder.seventv.actions",
+      "Icon": "static/img/icon.png",
+      "state": 0,
+      "States": [
+        {
+          "FontSize": "11",
+          "FontStyle": "Bold",
+          "TitleAlignment": "bottom",
+          "Image": "static/img/icon.png"
+        }
+      ],
+      "Settings": {
+      },
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Controllers": [
+        "Keypad",
+        "Information",
+        "SecondaryScreen",
+        "Knob",
+        "btn"
+      ],
+      "Name": "Random Hi",
+      "Tooltip": "Tooltipik"
+    }
+  ],
+  "Version": "1.0.0",
+  "Name": "DemoTwitch",
+  "Icon": "static/img/icon.png",
+  "CategoryIcon": "static/img/icon.png",
+  "Category": "7TV",
+  "Description": "This is a sample plugin",
+  "CodePath": "main.py",
+  "SDKVersion": 1,
+  "Author": "Gamzder",
+  "URL": "http://video.hotspotek.com.cn/",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "7"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "2.10.179.426"
+  },
+  "Nodejs":{
+    "Version": "20",
+    "Debug":"--inspect=127.0.0.1:3210"
+  }
+}
