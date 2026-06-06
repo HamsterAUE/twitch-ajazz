@@ -33,7 +33,7 @@
   "CategoryIcon": "static/img/icon.png",
   "Category": "7TV",
   "Description": "This is a sample plugin",
-  "CodePath": "main.py",
+  "CodePath": "DemoPlugin.exe",
   "SDKVersion": 1,
   "Author": "Gamzder",
   "URL": "http://video.hotspotek.com.cn/",

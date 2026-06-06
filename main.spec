@@ -17,7 +17,8 @@ a = Analysis(
         'pyautogui',
         'PIL',
         'PIL.Image',
-        'PIL.ImageDraw'
+        'PIL.ImageDraw',
+        'src.actions.actions'
     ],
     hookspath=[],
     hooksconfig={},
