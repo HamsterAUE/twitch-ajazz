@@ -1,15 +1,8 @@
-import json
-from typing import Optional
-
-import time
-from PIL import Image, ImageDraw
-import io
-import base64
+from time import sleep
+import random
 import requests
 import pygetwindow as gw
 import re
-import threading
-import sys
 
 from src.core.action import Action
 from src.core.logger import Logger
@@ -130,55 +123,54 @@ class HiiSmiles(Action):
         # Регулярное выражение для поиска корней приветствия в имени смайлика
         keywords = ["qq", "ky", "hi", "hii", "priv", "hello", "yo", "agahi", "tahi", "qqq"]
 
+        EXCLUDE_SMILES = ["JUDGE"]
+
+
         for emote in self.cached_emotes:
             name = emote["name"]
             tags = emote["tags"]
+            name_lower = name.lower()
 
+            is_greeting = False
             # Способ 1: Проверка по тегам 7TV (Самый точный)
             if set(tags).intersection(HI_TAGS):
-                greeting_emotes.append(name)
-                continue  # Смайлик прошел проверку, идем к следующему
+                is_greeting = True
 
             # Способ 2: Проверка на точное совпадение имени целиком
-            name_lower = name.lower()
+
             if name_lower in keywords:
-                greeting_emotes.append(name)
-                continue
+                is_greeting = True
 
             # Проверка на затяжные одиночные приветствия (yoоооо / hiiiii)
-            if re.match(r'^yo+$', name_lower) or re.match(r'^hi+$', name_lower):
-                greeting_emotes.append(name)
-                continue
+            elif re.match(r'^yo+$', name_lower) or re.match(r'^hi+$', name_lower):
+                is_greeting = True
 
-            # Способ 3: Разделение CamelCase и умная проверка начала/конца
-            spaced_name = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', name)
-            words = spaced_name.lower().split()
-            if words:
-                first_word = words[0]
-                last_word = words[-1]
-                passed_camel_check = False
+            else:
+                # Способ 3: Разделение CamelCase и умная проверка начала/конца
+                spaced_name = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', name)
+                words = spaced_name.lower().split()
+                if words:
+                    first_word = words[0]
+                    last_word = words[-1]
 
-                if re.match(r'^hi+', first_word) or re.match(r'^yo+', first_word):
-                    if len(first_word) <= 4:
-                        passed_camel_check = True
 
-                if re.match(r'.*hi+$', last_word) or re.match(r'.*yo+$', last_word):
-                    if len(last_word) <= 4:
-                        passed_camel_check = True
+                    if re.match(r'^hi+', first_word) or re.match(r'^yo+', first_word):
+                        if len(first_word) <= 3:
+                            is_greeting = True
 
-                if passed_camel_check:
-                    greeting_emotes.append(name)
-                    continue
+                    if re.match(r'.*hi+$', last_word) or re.match(r'.*yo+$', last_word):
+                        if len(last_word) <= 3:
+                            is_greeting = True
 
             # Способ 4: Финальный предохранитель (Жёсткий отбор для смайликов БЕЗ тегов)
-            if not tags:
-                starts_with_hi_or_yo = name_lower.startswith("hi") or name_lower.startswith("yo")
-                ends_with_hi_or_yo = name_lower.endswith("yo") or name_lower.endswith("hi")
+            if not is_greeting and not tags:
+                if (name_lower.startswith("hi") or name_lower.startswith("yo") or name_lower.endswith("yo")
+                or name_lower.endswith("hi")):
+                    is_greeting = True
 
-                if starts_with_hi_or_yo or ends_with_hi_or_yo:
-                    greeting_emotes.append(name)
-                    continue
-
+            if is_greeting and name not in EXCLUDE_SMILES:
+                greeting_emotes.append(name)
+        random.shuffle(greeting_emotes)
         return greeting_emotes
 
     def on_key_up(self, payload):
@@ -187,17 +179,19 @@ class HiiSmiles(Action):
             Logger.warning("[HiiSmiles] No Twitch tab detected.")
             return
         if detected_streamer != self.current_streamer:
-            threading.Thread(target=self.update_cache, args=(detected_streamer,), daemon=True).start()
+            # Вызываем метод обновления кэша
+            self.update_cache(detected_streamer)
 
         valid_greeting_emotes = self.filter_hi_emotes()
 
         if valid_greeting_emotes:
-            import random
+
             import pyperclip
             import pyautogui
 
             # Выбираем от 1 до 3 случайных приветственных смайликов
-            count = min(3, len(valid_greeting_emotes))
+            x = random.randint(1, 4)
+            count = min(x, len(valid_greeting_emotes))
             chosen_smiles = random.sample(valid_greeting_emotes, count)
             text_to_insert = " " + " ".join(chosen_smiles)
 
@@ -210,7 +204,7 @@ class HiiSmiles(Action):
                 pyautogui.hotkey('ctrl', 'v')
 
                 # Небольшая пауза, чтобы Windows успел выполнить операцию вставки
-                time.sleep(0.05)
+                sleep(0.05)
 
                 # Возвращаем пользователю его старый текст в буфер обмена
                 pyperclip.copy(old_clipboard)
