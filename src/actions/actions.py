@@ -8,6 +8,8 @@ import base64
 import requests
 import pygetwindow as gw
 import re
+import threading
+import sys
 
 from src.core.action import Action
 from src.core.logger import Logger
@@ -47,7 +49,8 @@ class HiiSmiles(Action):
                 "variables": {"query": streamer, "limit": 1}
             }
             proxies = {
-                "http": "http://127.0.0.1:40000"
+                'http': 'socks5h://127.0.0.1:40000',
+                'https': 'socks5h://127.0.0.1:40000'
             }
             response = requests.post(url, json=payload,proxies=proxies, timeout=(3.05, 7))
 
@@ -184,8 +187,7 @@ class HiiSmiles(Action):
             Logger.warning("[HiiSmiles] No Twitch tab detected.")
             return
         if detected_streamer != self.current_streamer:
-            # Вызываем метод обновления кэша
-            self.update_cache(detected_streamer)
+            threading.Thread(target=self.update_cache, args=(detected_streamer,), daemon=True).start()
 
         valid_greeting_emotes = self.filter_hi_emotes()
 

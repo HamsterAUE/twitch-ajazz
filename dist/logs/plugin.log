@@ -57,3 +57,31 @@
 2026-06-06 20:17:20,592 - StreamDock - INFO - Loading 7TV emotes from: 5opka
 2026-06-06 20:17:22,620 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
 2026-06-06 20:17:22,620 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-06 20:19:54,052 - StreamDock - INFO - Plugin stopped
+2026-06-06 20:20:11,124 - StreamDock - INFO - Plugin Start
+2026-06-06 20:20:12,141 - StreamDock - INFO - WebSocket connected
+2026-06-06 20:20:12,147 - StreamDock - INFO - willAppear
+2026-06-06 20:20:12,148 - StreamDock - INFO - Loading action module: actions
+2026-06-06 20:20:12,148 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-06 20:20:12,148 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-06 20:20:12,149 - StreamDock - INFO - Loading action module: custom
+2026-06-06 20:20:12,149 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-06 20:20:12,150 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-06 20:20:12,151 - StreamDock - INFO - Loading action module: time
+2026-06-06 20:20:12,151 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-06 20:20:12,151 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
+2026-06-06 20:20:12,151 - StreamDock - INFO - titleParametersDidChange
+2026-06-06 20:20:12,756 - StreamDock - INFO - deviceDidConnect
+2026-06-06 20:20:18,155 - StreamDock - INFO - keyDown
+2026-06-06 20:20:18,207 - StreamDock - INFO - keyUp
+2026-06-06 20:20:18,207 - StreamDock - WARNING - [HiiSmiles] No Twitch tab detected.
+2026-06-06 20:20:30,748 - StreamDock - INFO - keyDown
+2026-06-06 20:20:30,798 - StreamDock - INFO - keyUp
+2026-06-06 20:20:30,799 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-06 20:20:32,832 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
+2026-06-06 20:20:32,832 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-06 20:25:21,610 - StreamDock - INFO - keyDown
+2026-06-06 20:25:21,661 - StreamDock - INFO - keyUp
+2026-06-06 20:25:21,661 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-06 20:25:23,693 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
+2026-06-06 20:25:23,693 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
