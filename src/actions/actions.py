@@ -15,6 +15,7 @@ class SendRandomEmote(Action):
         self.KEYWORDS = []
         self.TAGS = []
         self.EXCLUDE = []
+        self.MATCH_WORDS = []
 
 
 
@@ -114,6 +115,16 @@ class SendRandomEmote(Action):
             Logger.error("[SendRandomEmote]Failed to get Twitch streamer info. Exception: {}".format(e))
         return None
 
+    @classmethod
+    def split_camel(cls, name):
+        spaced_name = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', name)
+        words = spaced_name.lower().split()
+        if words:
+            first_word = words[0]
+            last_word = words[-1]
+            return first_word, last_word
+        else:
+            return None, None
 
 
     def filter_emotes(self):
@@ -124,6 +135,7 @@ class SendRandomEmote(Action):
         #TAGS --> Список тегов 7TV, которые точно указывают на приветствие
         #KEYWORDS --> Регулярное выражение для поиска корней приветствия в имени смайлика
         #EXCLUDE --> Конкретное название эмоуа требующего исключения
+        #MATCH_WORDS --> Фразы для проверки вхождений в верблюжей записи
 
         for emote in self.cached_emotes:
             name = emote["name"]
@@ -139,9 +151,20 @@ class SendRandomEmote(Action):
             if name_lower in self.KEYWORDS:
                 emote_fits = True
 
+            # Способ 3: Проверка на совпадение проверочных слов в верблюжей записи
+            if self.MATCH_WORDS:
+                first_word, last_word = self.split_camel(name_lower)
+                if first_word and last_word:
+                    for mw in self.MATCH_WORDS:
+                        matchstr = f'^{mw}+'
+                        if re.match(matchstr, first_word) or re.match(matchstr, last_word):
+                                emote_fits = True
 
-            if emote_fits and not any(smile in name for smile in self.EXCLUDE):
-                suitable_emotes.append(name)
+            #Финальная проверка на наличие не совпадающих тегов и наличие в исключениях
+            if emote_fits and not tags:
+                if not any(smile in name for smile in self.EXCLUDE):
+                    suitable_emotes.append(name)
+
         random.shuffle(suitable_emotes)
         return suitable_emotes
 
@@ -409,6 +432,6 @@ class SpeedEmotes(Action, SendRandomEmote):
 
         self.current_streamer = None
         self.cached_emotes = []
-        self.KEYWORDS = []
-        self.TAGS = []
+        self.KEYWORDS = ["speed", "ishowspeed"]
+        self.TAGS = ["speed", "ishowspeed"]
         self.EXCLUDE = []
