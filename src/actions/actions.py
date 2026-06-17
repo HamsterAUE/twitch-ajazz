@@ -164,9 +164,10 @@ class SendRandomEmote(Action):
             if next((key for key in self.KEYWORDS if key in name), False):
                 emote_fits = True
             #Финальная проверка на наличие не совпадающих тегов и наличие в исключениях
-            if emote_fits and not tags:
-                if not any(smile in name for smile in self.EXCLUDE):
-                    suitable_emotes.append(name)
+            if emote_fits and tags:
+                continue
+            if not any(smile in name for smile in self.EXCLUDE):
+                suitable_emotes.append(name)
 
         random.shuffle(suitable_emotes)
         return suitable_emotes

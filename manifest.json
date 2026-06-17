@@ -1,7 +1,7 @@
 {
   "Actions": [
     {
-      "UUID": "com.gamzder.seventv.actions",
+      "UUID": "com.gamzder.seventv.actions.HiiSmiles",
       "Icon": "static/img/icon.png",
       "state": 0,
       "States": [
@@ -12,8 +12,7 @@
           "Image": "static/img/icon.png"
         }
       ],
-      "Settings": {
-      },
+      "Settings": {},
       "UserTitleEnabled": false,
       "SupportedInMultiActions": false,
       "Controllers": [
@@ -24,7 +23,32 @@
         "btn"
       ],
       "Name": "Random Hi",
-      "Tooltip": "Tooltipik"
+      "Tooltip": "Вставляет случайные приветственные смайлы"
+    },
+    {
+      "UUID": "com.gamzder.seventv.actions.SpeedEmotes",
+      "Icon": "static/img/speed.png",
+      "state": 0,
+      "States": [
+        {
+          "FontSize": "11",
+          "FontStyle": "Bold",
+          "TitleAlignment": "bottom",
+          "Image": "static/img/speed.png"
+        }
+      ],
+      "Settings": {},
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Controllers": [
+        "Keypad",
+        "Information",
+        "SecondaryScreen",
+        "Knob",
+        "btn"
+      ],
+      "Name": "Speed Emotes",
+      "Tooltip": "ishowspeed"
     }
   ],
   "Version": "1.0.0",
