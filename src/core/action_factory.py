@@ -89,7 +89,7 @@ class ActionFactory:
                         if (inspect.isclass(obj) and 
                             issubclass(obj, Action) and 
                             obj != Action):
-                            action_type = module_name.lower()
+                            action_type = name.lower()
                             cls.register_action(action_type, obj)
                             Logger.info(f"Successfully registered action: {action_type} -> {obj.__name__}")
                             Logger.info(f"Registered action types: {cls._action_types}")

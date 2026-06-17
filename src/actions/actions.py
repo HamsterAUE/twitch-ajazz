@@ -10,6 +10,7 @@ from src.core.logger import Logger
 class SendRandomEmote(Action):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
+        self.x = random.randint(1, 4)
         self.current_streamer = None
         self.cached_emotes = []
         self.KEYWORDS = None
@@ -160,14 +161,14 @@ class SendRandomEmote(Action):
                         if re.match(matchstr, first_word) or re.match(matchstr, last_word):
                                 emote_fits = True
 
-            # Способ 3: Грубая проверка на вхождение ключа в название эмоута
-            if next((key for key in self.KEYWORDS if key in name), False):
-                emote_fits = True
-            #Финальная проверка на наличие не совпадающих тегов и наличие в исключениях
-            if emote_fits and tags:
-                continue
-            if not any(smile in name for smile in self.EXCLUDE):
-                suitable_emotes.append(name)
+            if emote_fits:
+                # Проверяем, нет ли названия в списке исключений EXCLUDE
+                if not any(smile in name for smile in self.EXCLUDE):
+                    suitable_emotes.append(name)
+                    Logger.info(f"[SendRandomEmote] Отфильтровано: {name}")
+                else:
+                    Logger.info(f"[SendRandomEmote] Исключено (EXCLUDE): {name}")
+
 
         random.shuffle(suitable_emotes)
         return suitable_emotes
@@ -183,6 +184,8 @@ class SendRandomEmote(Action):
             # Вызываем метод обновления кэша
             self.update_cache(detected_streamer)
 
+        Logger.info(f"[SendRandomEmote]{self.TAGS}; {self.KEYWORDS}")
+
         valid_greeting_emotes = self.filter_emotes()
 
         if valid_greeting_emotes:
@@ -192,8 +195,7 @@ class SendRandomEmote(Action):
             import keyboard
 
             # Выбираем от 1 до 3 случайных приветственных смайликов
-            x = random.randint(1, 4)
-            count = min(x, len(valid_greeting_emotes))
+            count = min(self.x, len(valid_greeting_emotes))
             chosen_smiles = random.sample(valid_greeting_emotes, count)
             text_to_insert = " " + " ".join(chosen_smiles)
 
@@ -219,7 +221,8 @@ class SendRandomEmote(Action):
             Logger.warning(f"[SendRandomEmote] На канале {detected_streamer} не найдено подходящих смайликов.")
 
 
-class HiiSmiles(Action, SendRandomEmote):
+
+class hiismiles(Action):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
 
@@ -430,12 +433,9 @@ class HiiSmiles(Action, SendRandomEmote):
         else:
             Logger.warning(f"[HiiSmiles] На канале {detected_streamer} не найдено подходящих приветственных смайликов.")
 
-class SpeedEmotes(SendRandomEmote):
+class speedemotes(SendRandomEmote):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
-
-        self.current_streamer = None
-        self.cached_emotes = []
+        self.x = 1
         self.KEYWORDS = ["speed", "ishowspeed"]
         self.TAGS = ["speed", "ishowspeed"]
-        self.EXCLUDE = []

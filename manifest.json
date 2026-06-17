@@ -1,7 +1,7 @@
 {
   "Actions": [
     {
-      "UUID": "com.gamzder.seventv.actions.HiiSmiles",
+      "UUID": "com.gamzder.seventv.actions.hiismiles",
       "Icon": "static/img/icon.png",
       "state": 0,
       "States": [
@@ -26,7 +26,7 @@
       "Tooltip": "Вставляет случайные приветственные смайлы"
     },
     {
-      "UUID": "com.gamzder.seventv.actions.SpeedEmotes",
+      "UUID": "com.gamzder.seventv.actions.speedemotes",
       "Icon": "static/img/speed.png",
       "state": 0,
       "States": [

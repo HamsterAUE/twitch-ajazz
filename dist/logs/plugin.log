@@ -1,215 +1,733 @@
-2026-06-07 18:17:06,032 - StreamDock - INFO - Plugin Start
-2026-06-07 18:17:07,044 - StreamDock - INFO - WebSocket connected
-2026-06-07 18:17:07,050 - StreamDock - INFO - willAppear
-2026-06-07 18:17:07,051 - StreamDock - INFO - Loading action module: actions
-2026-06-07 18:17:07,051 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-07 18:17:07,051 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-07 18:17:07,079 - StreamDock - INFO - Loading action module: custom
-2026-06-07 18:17:07,079 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-07 18:17:07,079 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-07 18:17:07,080 - StreamDock - INFO - Loading action module: tim_example
-2026-06-07 18:17:07,080 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-07 18:17:07,080 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-07 18:17:07,080 - StreamDock - INFO - titleParametersDidChange
-2026-06-07 18:17:07,624 - StreamDock - INFO - deviceDidConnect
-2026-06-07 18:17:14,484 - StreamDock - INFO - keyDown
-2026-06-07 18:17:14,534 - StreamDock - INFO - keyUp
-2026-06-07 18:17:14,535 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-07 18:17:15,152 - StreamDock - INFO - Success caching 942 emotes for 5opka
-2026-06-07 18:17:15,209 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:17:15,763 - StreamDock - INFO - [HiiSmiles] Вставка  hiii hibebra hi tahi
-2026-06-07 18:17:16,233 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii hibebra hi tahi
-2026-06-07 18:17:29,151 - StreamDock - INFO - keyDown
-2026-06-07 18:17:29,201 - StreamDock - INFO - keyUp
-2026-06-07 18:17:29,216 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:17:29,770 - StreamDock - INFO - [HiiSmiles] Вставка  hiii re
-2026-06-07 18:17:30,187 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii re
-2026-06-07 18:17:31,782 - StreamDock - INFO - keyDown
-2026-06-07 18:17:31,832 - StreamDock - INFO - keyUp
-2026-06-07 18:17:31,847 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:17:32,400 - StreamDock - INFO - [HiiSmiles] Вставка  priv qq Hi agahi
-2026-06-07 18:17:32,819 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  priv qq Hi agahi
-2026-06-07 18:17:33,496 - StreamDock - INFO - keyDown
-2026-06-07 18:17:33,547 - StreamDock - INFO - keyUp
-2026-06-07 18:17:33,564 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:17:34,122 - StreamDock - INFO - [HiiSmiles] Вставка  hiii ky
-2026-06-07 18:17:34,544 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii ky
-2026-06-07 18:17:34,545 - StreamDock - INFO - keyDown
-2026-06-07 18:17:34,545 - StreamDock - INFO - keyUp
-2026-06-07 18:17:34,562 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:17:35,127 - StreamDock - INFO - [HiiSmiles] Вставка  ky
-2026-06-07 18:17:35,551 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  ky
-2026-06-07 18:20:01,479 - StreamDock - INFO - keyDown
-2026-06-07 18:20:01,529 - StreamDock - INFO - keyUp
-2026-06-07 18:20:01,543 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:20:02,113 - StreamDock - INFO - [HiiSmiles] Вставка  salam hiii yoooo agahi
-2026-06-07 18:20:02,534 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  salam hiii yoooo agahi
-2026-06-07 18:20:07,537 - StreamDock - INFO - keyDown
-2026-06-07 18:20:07,587 - StreamDock - INFO - keyUp
-2026-06-07 18:20:07,602 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:20:08,151 - StreamDock - INFO - [HiiSmiles] Вставка  agahi
-2026-06-07 18:20:08,568 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi
-2026-06-07 18:20:10,089 - StreamDock - INFO - keyDown
-2026-06-07 18:20:10,140 - StreamDock - INFO - keyUp
-2026-06-07 18:20:10,154 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:20:10,713 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra hihi tahi
-2026-06-07 18:20:11,134 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra hihi tahi
-2026-06-07 18:26:21,686 - StreamDock - INFO - Plugin stopped
-2026-06-07 18:26:42,875 - StreamDock - INFO - Plugin Start
-2026-06-07 18:26:43,881 - StreamDock - INFO - WebSocket connected
-2026-06-07 18:26:43,888 - StreamDock - INFO - willAppear
-2026-06-07 18:26:43,889 - StreamDock - INFO - Loading action module: actions
-2026-06-07 18:26:43,890 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-07 18:26:43,890 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-07 18:26:44,071 - StreamDock - INFO - Loading action module: custom
-2026-06-07 18:26:44,071 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-07 18:26:44,071 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-07 18:26:44,071 - StreamDock - INFO - Loading action module: tim_example
-2026-06-07 18:26:44,071 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-07 18:26:44,073 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-07 18:26:44,073 - StreamDock - INFO - titleParametersDidChange
-2026-06-07 18:26:44,426 - StreamDock - INFO - deviceDidConnect
-2026-06-07 18:26:47,652 - StreamDock - INFO - keyDown
-2026-06-07 18:26:47,701 - StreamDock - INFO - keyUp
-2026-06-07 18:26:47,701 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-07 18:26:49,095 - StreamDock - INFO - Success caching 942 emotes for 5opka
-2026-06-07 18:26:49,163 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:26:49,342 - StreamDock - INFO - [HiiSmiles] Вставка  tahi
-2026-06-07 18:26:49,768 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  tahi
-2026-06-07 18:26:56,413 - StreamDock - INFO - keyDown
-2026-06-07 18:26:56,465 - StreamDock - INFO - keyUp
-2026-06-07 18:26:56,482 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:26:56,585 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra hiii Hii
-2026-06-07 18:26:57,005 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra hiii Hii
-2026-06-07 18:26:57,346 - StreamDock - INFO - keyDown
-2026-06-07 18:26:57,398 - StreamDock - INFO - keyUp
-2026-06-07 18:26:57,412 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:26:57,526 - StreamDock - INFO - [HiiSmiles] Вставка  agahi Hi
-2026-06-07 18:26:57,945 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi Hi
-2026-06-07 18:27:07,654 - StreamDock - INFO - keyDown
-2026-06-07 18:27:07,705 - StreamDock - INFO - keyUp
-2026-06-07 18:27:07,721 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:27:07,836 - StreamDock - INFO - [HiiSmiles] Вставка  priv
-2026-06-07 18:27:08,253 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  priv
-2026-06-07 18:27:11,221 - StreamDock - INFO - keyDown
-2026-06-07 18:27:11,270 - StreamDock - INFO - keyUp
-2026-06-07 18:27:11,285 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:27:11,392 - StreamDock - INFO - [HiiSmiles] Вставка  hii salam
-2026-06-07 18:27:11,810 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hii salam
-2026-06-07 18:27:21,471 - StreamDock - INFO - keyDown
-2026-06-07 18:27:21,523 - StreamDock - INFO - keyUp
-2026-06-07 18:27:21,537 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 18:27:21,645 - StreamDock - INFO - [HiiSmiles] Вставка  agahi hi
-2026-06-07 18:27:22,061 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi hi
-2026-06-07 20:33:37,975 - StreamDock - INFO - keyDown
-2026-06-07 20:33:38,022 - StreamDock - INFO - keyUp
-2026-06-07 20:33:38,046 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 20:33:38,151 - StreamDock - INFO - [HiiSmiles] Вставка  hii re
-2026-06-07 20:33:38,582 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hii re
-2026-06-07 20:40:24,572 - StreamDock - INFO - keyDown
-2026-06-07 20:40:24,624 - StreamDock - INFO - keyUp
-2026-06-07 20:40:24,642 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-07 20:40:24,757 - StreamDock - INFO - [HiiSmiles] Вставка  yoooo hi
-2026-06-07 20:40:25,177 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yoooo hi
-2026-06-08 11:09:55,487 - StreamDock - INFO - Plugin Start
-2026-06-08 11:09:57,131 - StreamDock - INFO - WebSocket connected
-2026-06-08 11:09:57,209 - StreamDock - INFO - willAppear
-2026-06-08 11:09:57,212 - StreamDock - INFO - Loading action module: actions
-2026-06-08 11:09:57,212 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-08 11:09:57,212 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-08 11:09:57,240 - StreamDock - INFO - Loading action module: custom
-2026-06-08 11:09:57,241 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-08 11:09:57,241 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-08 11:09:57,243 - StreamDock - INFO - Loading action module: tim_example
-2026-06-08 11:09:57,243 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-08 11:09:57,243 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-08 11:09:57,244 - StreamDock - INFO - titleParametersDidChange
-2026-06-08 11:09:58,232 - StreamDock - INFO - deviceDidConnect
-2026-06-08 11:10:04,199 - StreamDock - INFO - keyDown
-2026-06-08 11:10:04,250 - StreamDock - INFO - keyUp
-2026-06-08 11:10:04,250 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-08 11:10:04,722 - StreamDock - INFO - Success caching 942 emotes for 5opka
-2026-06-08 11:10:04,806 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-08 11:10:05,022 - StreamDock - INFO - [HiiSmiles] Вставка  yoooo re
-2026-06-08 11:10:05,431 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yoooo re
-2026-06-08 11:10:10,626 - StreamDock - INFO - keyDown
-2026-06-08 11:10:10,678 - StreamDock - INFO - keyUp
-2026-06-08 11:10:10,689 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-08 11:10:10,798 - StreamDock - INFO - [HiiSmiles] Вставка  yo Hii
-2026-06-08 11:10:11,217 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yo Hii
-2026-06-08 18:08:22,723 - StreamDock - INFO - keyDown
-2026-06-08 18:08:22,770 - StreamDock - INFO - keyUp
-2026-06-08 18:08:22,788 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-08 18:08:22,903 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra Hii yoooo
-2026-06-08 18:08:23,326 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra Hii yoooo
-2026-06-08 20:13:59,443 - StreamDock - INFO - keyDown
-2026-06-08 20:13:59,493 - StreamDock - INFO - keyUp
-2026-06-08 20:13:59,512 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-08 20:13:59,622 - StreamDock - INFO - [HiiSmiles] Вставка  re
-2026-06-08 20:14:00,037 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  re
-2026-06-08 22:32:05,723 - StreamDock - INFO - Plugin stopped
-2026-06-13 20:42:13,292 - StreamDock - INFO - Plugin Start
-2026-06-13 20:42:14,311 - StreamDock - INFO - WebSocket connected
-2026-06-13 20:42:14,317 - StreamDock - INFO - willAppear
-2026-06-13 20:42:14,320 - StreamDock - INFO - Loading action module: actions
-2026-06-13 20:42:14,320 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-13 20:42:14,320 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-13 20:42:14,405 - StreamDock - INFO - Loading action module: custom
-2026-06-13 20:42:14,405 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-13 20:42:14,406 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-13 20:42:14,407 - StreamDock - INFO - Loading action module: tim_example
-2026-06-13 20:42:14,407 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-13 20:42:14,407 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-13 20:42:14,407 - StreamDock - INFO - titleParametersDidChange
-2026-06-13 20:42:15,169 - StreamDock - INFO - deviceDidConnect
-2026-06-13 21:20:20,615 - StreamDock - INFO - keyDown
-2026-06-13 21:20:20,665 - StreamDock - INFO - keyUp
-2026-06-13 21:20:20,666 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-13 21:20:23,736 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
-2026-06-13 21:20:23,736 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-13 21:20:23,736 - StreamDock - INFO - keyDown
-2026-06-13 21:20:23,737 - StreamDock - INFO - keyUp
-2026-06-13 21:20:23,737 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-13 21:20:26,793 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
-2026-06-13 21:20:26,794 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-13 21:20:39,292 - StreamDock - INFO - keyDown
-2026-06-13 21:20:39,341 - StreamDock - INFO - keyUp
-2026-06-13 21:20:39,341 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-13 21:20:42,395 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
-2026-06-13 21:20:42,395 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-13 21:21:37,144 - StreamDock - INFO - keyDown
-2026-06-13 21:21:37,195 - StreamDock - INFO - keyUp
-2026-06-13 21:21:37,196 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-13 21:21:37,773 - StreamDock - INFO - Success caching 943 emotes for 5opka
-2026-06-13 21:21:37,837 - StreamDock - INFO - [HiiSmiles] Копирование
-2026-06-13 21:21:38,045 - StreamDock - INFO - [HiiSmiles] Вставка  salam hii tahi ky
-2026-06-13 21:21:38,455 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  salam hii tahi ky
-2026-06-14 22:42:09,286 - StreamDock - INFO - Plugin Start
-2026-06-14 22:42:10,323 - StreamDock - INFO - WebSocket connected
-2026-06-14 22:42:10,333 - StreamDock - INFO - willAppear
-2026-06-14 22:42:10,337 - StreamDock - INFO - Loading action module: actions
-2026-06-14 22:42:10,337 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-14 22:42:10,337 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-14 22:42:10,368 - StreamDock - INFO - Loading action module: custom
-2026-06-14 22:42:10,368 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-14 22:42:10,368 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-14 22:42:10,369 - StreamDock - INFO - Loading action module: tim_example
-2026-06-14 22:42:10,370 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-14 22:42:10,370 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-14 22:42:10,370 - StreamDock - INFO - titleParametersDidChange
-2026-06-14 22:42:11,390 - StreamDock - INFO - deviceDidConnect
-2026-06-14 23:00:23,638 - StreamDock - INFO - Plugin stopped
-2026-06-15 20:47:19,268 - StreamDock - INFO - Plugin Start
-2026-06-15 20:47:20,338 - StreamDock - INFO - WebSocket connected
-2026-06-15 20:47:20,405 - StreamDock - INFO - willAppear
-2026-06-15 20:47:20,408 - StreamDock - INFO - Loading action module: actions
-2026-06-15 20:47:20,408 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-15 20:47:20,408 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-15 20:47:20,439 - StreamDock - INFO - Loading action module: custom
-2026-06-15 20:47:20,439 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-15 20:47:20,439 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-15 20:47:20,442 - StreamDock - INFO - Loading action module: tim_example
-2026-06-15 20:47:20,442 - StreamDock - INFO - Successfully registered action: tim_example -> Time
-2026-06-15 20:47:20,442 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
-2026-06-15 20:47:20,442 - StreamDock - INFO - titleParametersDidChange
-2026-06-15 20:47:21,266 - StreamDock - INFO - deviceDidConnect
+2026-06-17 19:15:52,280 - StreamDock - INFO - keyDown
+2026-06-17 19:15:52,331 - StreamDock - INFO - keyUp
+2026-06-17 19:15:52,331 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catJAM
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: monkaSTEER
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BRUHMM
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mlem
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MONKE
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PepegaCard
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GoodTake
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: FLASHBANG
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mion
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mionX
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sps
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SOSI
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sdr
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AAAA
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wow
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sigma
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Staredown
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catRave
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: monkaOMEGA
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: spilledGlue
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LULLING
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HAHAHA
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: obama
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GameplayTime
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 1000-7
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nam
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaTake
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaDance
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Luv
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SCAMBA
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DaPoebatNam
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: maaaaan
+2026-06-17 19:15:52,332 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Smirk
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Very5opka
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NOOOOvanish
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kavo
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pog
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PepeNoted
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ok
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DooooooooogLookingSussyAndCute
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WTFDOG
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fakU
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BoyWhatTheHellBoy
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: whatt
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MODS
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Offay
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 0_0
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WideSvin
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: shluxa
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nepon
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WeirdChamp
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: waaa
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dancing
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BUSSIN
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DogLookingSussyAndCute
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wut
+2026-06-17 19:15:52,333 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: apeJam
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CatGun
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: :))
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wide5OPKA
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ReallyMad
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Porvalo
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cowJAM
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: INSANECAT
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Aloo
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaSus
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PepeClown
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dog
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PartyKirby
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Floppas
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Wigglecat
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GetOutOfMyHead
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yo
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: TriSad
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CatAHomie
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BONKTHEMODS
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoSleep
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Widevahui
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SadChamp
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catJAMPARTY
+2026-06-17 19:15:52,334 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HUGGIES
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Hugs
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BANNED
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: monkeyChat
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: StopStreaming
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: crunch
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ohno
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yoooo
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sad
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MonkeDrive
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Loading
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mda
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaTop
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PETTHECHAT
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BONKTHECHAT
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: JustChattingTime
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kabluk
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Hi
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: arnoldHalt
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: clown
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Smart
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Rap
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xaxa
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Agakakskagesh
+2026-06-17 19:15:52,335 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Modding
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pressF
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: lol
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PapichAga
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: roflanCamera
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dogDance
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ContentVO
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Lois
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hz
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: suetolog
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: heart
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kovalskiPhoe
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catErm
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SKIP
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BEG
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Puke
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cumion
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dogQ
+2026-06-17 19:15:52,336 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: idi
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: lickR
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: lickL
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catLick
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Dies
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cumJAM
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: YEPCUM
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BJ
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: glazed
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catSmash
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BabyChat
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Hmm
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BONKTHESTREAMER
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mmm
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddL
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cheboxar
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catStare
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: aga
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: uff
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NOWAYING5
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bicep
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MyExistenceIsNothingButAGrainOfSandComparedToTheEntireScaleOfTheUniverse
+2026-06-17 19:15:52,337 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BANGER
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PepegaGun
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: JokergeYvi
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: youR
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DISPUTING
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: happie
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: danseparty
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Catting
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ??
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: re
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: osterxd
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wawa
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: blush
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Watching
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WatchingR
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaLag
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GANDON
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AMBATAKAAAHAAAAA
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bitva
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: qq
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 321
+2026-06-17 19:15:52,339 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaSaid
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hi
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mm
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sashawatching
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: axax
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GoOut
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: em
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: leju
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cannyCat
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: photo
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BAAAAAAAAAAA
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dobro
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SCHIZA
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: okak
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xd
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XD
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XAHOB2
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GEFORCERTX4090
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: vottak
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: like
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pizdec
+2026-06-17 19:15:52,340 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pososi
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CheNahui
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NuAHule
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ReallyNah
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XyliGun
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: UHUHUH
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SleepingTime
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DanixSigma
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PawgChamp
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fact
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: balls
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: shizik
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ROCK
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VS
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ZPMODERAM
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: stupididiotcat
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cobaka3laya
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Bratan
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WOW
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nampox
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: postopai
+2026-06-17 19:15:52,341 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 2x
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: myIQ
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: konstantin
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: donater
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GANDONbI
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: unhappi
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DIESOFCRINGE
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: brorAutisme
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wires
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaAhui
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hihi
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddxdd
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hyhrya
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bedni
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: StopatVechno
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yakuRuina
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: konstantinDance
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BERY
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: default5opka
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SratVechno
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yikesJAM
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catAware
+2026-06-17 19:15:52,342 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaStareDowm
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SubChat
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SlavaSP
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pizdabo0ol
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dumbass
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: widepeepoPls
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plinkVibe
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaBoomer
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5xdd
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CrystalTime
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Cats
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sigmaMellsher
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sigma5
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SosiJopu
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sosiii
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: madgeTime
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MLADYge
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: debil
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pizdej
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: deb
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: oscar
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: juh
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: donaterLuv
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: celevaya
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: watchingcat
+2026-06-17 19:15:52,343 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plink
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: EARTHQUAKE
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tam
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ))))
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HEHE
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: agaaga
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: roflanUpalo
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaClap
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Dadadab
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ponimayu
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MUGA
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dd5
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaLuv
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: vibee
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Durka
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VO
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bb(
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bb((
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaWatching
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: rukopojatie
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: von
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: huh
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaFear
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XAHOB
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Wowies
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dinkDonk
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kotik
+2026-06-17 19:15:52,344 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xdx
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Xd
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LosingSignalToTheOneOrangeBraincell
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SAJ
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nefor
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: scary
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pon
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: thankegg
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddLove
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: (
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CatDance
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: axaxa
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nyama
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PIZDEC
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaMoin
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mgm
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Pizdec
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dobri
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 98
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 198
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wtf
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Cacto0oShiza
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaMhm
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: EZdodge
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Robert
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: iq1
+2026-06-17 19:15:52,345 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CLAP
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dolbaebi
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: (((
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Shigure
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VenomLick
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VenomLickR
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 4090
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xxd
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: poxyi
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VsemPohuy
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: !d20
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SashaKotori12cm
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Glumlenie
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddFishinge
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: boo
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 24
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: puh
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Alee
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Awkward
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaCute
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: :((
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: rock
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Caterge
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SER
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pozor
+2026-06-17 19:15:52,346 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: shy
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HAH
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: FirstTimeChatter
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hiii
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoPain
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mewhin
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: emaeWatafak
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5pozor
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mgmm
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Agaaga
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaRap
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoRun
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catClap
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GANDISH
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: FirstTimeChatter2
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PigXd
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 3avtra
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sex2
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: likee
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Unfollowed
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plusvibe
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ladydiana
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ehehe
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PeepoHey
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CUMTRUCK
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Poexal
+2026-06-17 19:15:52,347 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: vovanich
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: where
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bye
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SoCute
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BASED
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WalterVibe
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plus8
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5agony
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SashaKotoriADance
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Yes
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mcqSus
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: vot
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dead2
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zadanie
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OhZrya
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: poxyu
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: idiNahuiBlyat
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LIZUN
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: strashno
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HAHA
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fanat
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: suck
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Angry
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sleep
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Ale
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: -_-
+2026-06-17 19:15:52,348 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: StyleDemons
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: huuh
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaAhuevoz
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5opkaWin
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bulka
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Shh
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Rintarix
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sueta
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Leave
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 42
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ponabiraut
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XDXDXD
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OguzokDance
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Pridurki
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XAH0Bupal
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NAGIEVV
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NAGIEV
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: chehovskoe
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ALERT
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: porno
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: afk
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hibebra
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: shayrma
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pizza
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SushiTrain
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SadNagiev
+2026-06-17 19:15:52,349 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Taksa
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mrpenis
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ORTHIS
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: FishSmoke
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pridurki
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: oguzok
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tifilon
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: XyliSex
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 360
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MellsherXD
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sexx
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5XD
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pypsiki
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nashsasha
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: izibro
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: TRUSY_XATA_NA_TATA
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plus1
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ogo
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nosik
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ta
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zashtomut
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tuh
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 322
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Donate
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nosikJAM
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: RobertChef
+2026-06-17 19:15:52,350 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xdding
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AINTNOWAY
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: o7
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Listening
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Joel
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LICKA
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: lebronJAM
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: okok
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SUSSY
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Sadge
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Prayge
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoClap
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Clueless
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Em
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kok
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: uuh
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: meow
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: neladno
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Basedge
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Jokerge
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hii
+2026-06-17 19:15:52,351 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: agaa
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: classic
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MHMM
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Chelok
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Chelok(
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: RAGEY
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LETSGO
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catPls
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bb
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: -__-
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Chel
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GIGACHAD
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NOOOO
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: hmmMeeting
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoCheer
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NOWAYING
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sadKEK
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HUH
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: veryCat
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: muted
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Timeout
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MyHonestReaction
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NO
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Buratino
+2026-06-17 19:15:52,352 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Alarm
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DA
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ladno
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: otag
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ddx
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ChipiChapa
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Nyehehehe
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: EDM
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: gato
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: uauaua
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: PETTHEnatata
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NODDERS
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ymom
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: glupi
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: umni
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: chuvak
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bruhJAM
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: skoka
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: enotpuziriki
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Haram
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tuda
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bo
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zavtra
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zazabert
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zaza
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: scp
+2026-06-17 19:15:52,353 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cotpenis
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: strashilka
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: TwitchMoment
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: minusVibe
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: aaa
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NICHEGO
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Plead
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: okakcat
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zli
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: oster)
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sisifo
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Mewing
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GANDONIO
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Thinkge
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plak
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mellsherplak
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ura
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fuko
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cacto0owatching
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: oh
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bla
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ESHKERE
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VeryGoat
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: progrev
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 4sv
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: KrytoiChel
+2026-06-17 19:15:52,354 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Panic
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nyamnyamnyam
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WoW
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: cho
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: imba
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ferma
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BIGMONEY
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: streamOffline
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: waiting
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ulibashka
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ICANT
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: priv
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Loodomanych
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ehwehohyeaahhEhhhegh
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WW
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LL
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: prichina
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5krik
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Zrya
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: :00
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: da
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: gore(
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Ukazatel
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: nash
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: FirstTimeChadder
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: gg
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: glob
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zazuMewing
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: unxdd
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: !кальян
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dymok
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xaxaa
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Pointless
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ogoo
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kiss
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ANTON
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: likvidirovan
+2026-06-17 19:15:52,355 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 3
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: LookUp
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: glek
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 322stint
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Pivo
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Ugu
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 123
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DonoWall
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Aga
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GAMING
+2026-06-17 19:15:52,356 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: KabanRun
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catGroove
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ez
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zloy
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: CatDriving
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: plis
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SSSsssplode
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Piston
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5252
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GoldenRatio
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: deadge
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ReeferSad
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: salam
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: URA
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GlekDog
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: bro
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: russia
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: RUSSIAN5
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: byee
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: gosex
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 0-0
+2026-06-17 19:15:52,357 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: like5
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: swag
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ahui
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dadaAdun
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sus
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: JUDGE
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: agaDespair
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: )))
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SkeletonDance
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kalyann
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 29
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WhatTaahFuck
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Taalk
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Taaaa
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catKebab
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: artem
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tawow
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BEZNEGATIVA
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Tupoy
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Casual
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Lomka
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WWW
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Mhmm
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SmokeTime
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 54
+2026-06-17 19:15:52,358 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 95
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AufKok
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: burgir
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: toptop
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: GAGAGA
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: gaming
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SunflowerJam
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 90
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 60
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tamhm
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tas
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: poroflu
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BibleThump
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Taa
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SLAY
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fuga
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Zondbi
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: YE
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: MomentoSerio
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Zaslujenno
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AbsoluteCinema
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: !play
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: respec
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: thinkaboutit
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: privatka
+2026-06-17 19:15:52,359 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Privatka
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AYOOO
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yesh
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: yeahsoi2
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SwagBro
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: flowerr
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: VENOM
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: venom
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ))
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sex
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NOTED
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: :3
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SHTO
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Dadada
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ((
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ky
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Tssk
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Ura
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: mhm
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: :0
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SNIFFA
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddkiss
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xdd
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sadCat
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: AlienDance
+2026-06-17 19:15:52,360 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Aware
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Scared
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: BOOBA
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: dadada
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: eeeh
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: catKISS
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ratJAM
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Chatting
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: peepoShy
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: zavoz
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Dalbaeb
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: )
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: qqq
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: )))))
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 5venom
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Cinema
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: stonks
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Stonks
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: stonksdown
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Shyfingers
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: thinking
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: UWU
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: tahi
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 55
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: widetime
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: spermoejka
+2026-06-17 19:15:52,361 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: TaaPls
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SKVIRT
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: RR
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ЯИКО
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: NESKVIRT
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: shma
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: +8
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kick
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: chivayva
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Taa1984
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: Terpel
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wuh
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HARAM
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sidim
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: TotalPohuy
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: kokoko
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: 0
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: agahi
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: !slots
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: DYRMANIT
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: xddinside
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: WAIT
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: fm
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: ????
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: realno?
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pigdans
+2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HandShake
+2026-06-17 19:15:52,363 - StreamDock - ERROR - WebSocket error: 'NoneType' object is not iterable
