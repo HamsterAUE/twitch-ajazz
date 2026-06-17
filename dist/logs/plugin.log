@@ -1,65 +1,215 @@
-2026-06-06 20:20:12,151 - StreamDock - INFO - titleParametersDidChange
-2026-06-06 20:20:12,756 - StreamDock - INFO - deviceDidConnect
-2026-06-06 20:20:18,155 - StreamDock - INFO - keyDown
-2026-06-06 20:20:18,207 - StreamDock - INFO - keyUp
-2026-06-06 20:20:18,207 - StreamDock - WARNING - [HiiSmiles] No Twitch tab detected.
-2026-06-06 20:20:30,748 - StreamDock - INFO - keyDown
-2026-06-06 20:20:30,798 - StreamDock - INFO - keyUp
-2026-06-06 20:20:30,799 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-06 20:20:32,832 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
-2026-06-06 20:20:32,832 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-06 20:25:21,610 - StreamDock - INFO - keyDown
-2026-06-06 20:25:21,661 - StreamDock - INFO - keyUp
-2026-06-06 20:25:21,661 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-06 20:25:23,693 - StreamDock - ERROR - Cant get 7TV emotes by Exception: HTTPSConnectionPool(host='7tv.io', port=443): Max retries exceeded with url: /v3/gql (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=7890): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение")))
-2026-06-06 20:25:23,693 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-06 20:35:01,985 - StreamDock - INFO - Plugin stopped
-2026-06-06 20:35:24,403 - StreamDock - INFO - Plugin Start
-2026-06-06 20:35:25,413 - StreamDock - INFO - WebSocket connected
-2026-06-06 20:35:25,419 - StreamDock - INFO - willAppear
-2026-06-06 20:35:25,420 - StreamDock - INFO - Loading action module: actions
-2026-06-06 20:35:25,420 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-06 20:35:25,420 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-06 20:35:25,423 - StreamDock - INFO - Loading action module: custom
-2026-06-06 20:35:25,423 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-06 20:35:25,423 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-06 20:35:25,425 - StreamDock - INFO - Loading action module: time
-2026-06-06 20:35:25,425 - StreamDock - INFO - Successfully registered action: time -> Time
-2026-06-06 20:35:25,425 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
-2026-06-06 20:35:25,425 - StreamDock - INFO - titleParametersDidChange
-2026-06-06 20:35:26,032 - StreamDock - INFO - deviceDidConnect
-2026-06-06 20:35:39,157 - StreamDock - INFO - keyDown
-2026-06-06 20:35:39,207 - StreamDock - INFO - keyUp
-2026-06-06 20:35:39,208 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-06 20:35:39,208 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
-2026-06-06 20:35:39,902 - StreamDock - INFO - Success caching 942 emotes for 5opka
-2026-06-06 20:37:51,614 - StreamDock - INFO - Plugin stopped
-2026-06-06 20:38:01,420 - StreamDock - INFO - Plugin Start
-2026-06-06 20:38:02,436 - StreamDock - INFO - WebSocket connected
-2026-06-06 20:38:02,442 - StreamDock - INFO - willAppear
-2026-06-06 20:38:02,443 - StreamDock - INFO - Loading action module: actions
-2026-06-06 20:38:02,444 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
-2026-06-06 20:38:02,444 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
-2026-06-06 20:38:02,445 - StreamDock - INFO - Loading action module: custom
-2026-06-06 20:38:02,446 - StreamDock - INFO - Successfully registered action: custom -> Custom
-2026-06-06 20:38:02,446 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
-2026-06-06 20:38:02,447 - StreamDock - INFO - Loading action module: time
-2026-06-06 20:38:02,447 - StreamDock - INFO - Successfully registered action: time -> Time
-2026-06-06 20:38:02,447 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.time.Time'>}
-2026-06-06 20:38:02,447 - StreamDock - INFO - titleParametersDidChange
-2026-06-06 20:38:03,057 - StreamDock - INFO - deviceDidConnect
-2026-06-06 20:38:11,739 - StreamDock - INFO - keyDown
-2026-06-06 20:38:11,791 - StreamDock - INFO - keyUp
-2026-06-06 20:38:11,791 - StreamDock - INFO - Loading 7TV emotes from: 5opka
-2026-06-06 20:38:12,549 - StreamDock - INFO - Success caching 942 emotes for 5opka
-2026-06-06 20:38:12,830 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  youR agahi hiii
-2026-06-06 20:38:44,415 - StreamDock - INFO - keyDown
-2026-06-06 20:38:44,465 - StreamDock - INFO - keyUp
-2026-06-06 20:38:44,664 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  tahi youR Hii
-2026-06-06 20:39:23,740 - StreamDock - INFO - keyDown
-2026-06-06 20:39:23,791 - StreamDock - INFO - keyUp
-2026-06-06 20:39:23,998 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  JUDGE Hi hii
-2026-06-06 20:39:26,675 - StreamDock - INFO - keyDown
-2026-06-06 20:39:26,726 - StreamDock - INFO - keyUp
-2026-06-06 20:39:26,944 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  Hi ky qqq
-2026-06-06 20:47:02,788 - StreamDock - INFO - Plugin stopped
+2026-06-07 18:17:06,032 - StreamDock - INFO - Plugin Start
+2026-06-07 18:17:07,044 - StreamDock - INFO - WebSocket connected
+2026-06-07 18:17:07,050 - StreamDock - INFO - willAppear
+2026-06-07 18:17:07,051 - StreamDock - INFO - Loading action module: actions
+2026-06-07 18:17:07,051 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-07 18:17:07,051 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-07 18:17:07,079 - StreamDock - INFO - Loading action module: custom
+2026-06-07 18:17:07,079 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-07 18:17:07,079 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-07 18:17:07,080 - StreamDock - INFO - Loading action module: tim_example
+2026-06-07 18:17:07,080 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-07 18:17:07,080 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-07 18:17:07,080 - StreamDock - INFO - titleParametersDidChange
+2026-06-07 18:17:07,624 - StreamDock - INFO - deviceDidConnect
+2026-06-07 18:17:14,484 - StreamDock - INFO - keyDown
+2026-06-07 18:17:14,534 - StreamDock - INFO - keyUp
+2026-06-07 18:17:14,535 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-07 18:17:15,152 - StreamDock - INFO - Success caching 942 emotes for 5opka
+2026-06-07 18:17:15,209 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:17:15,763 - StreamDock - INFO - [HiiSmiles] Вставка  hiii hibebra hi tahi
+2026-06-07 18:17:16,233 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii hibebra hi tahi
+2026-06-07 18:17:29,151 - StreamDock - INFO - keyDown
+2026-06-07 18:17:29,201 - StreamDock - INFO - keyUp
+2026-06-07 18:17:29,216 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:17:29,770 - StreamDock - INFO - [HiiSmiles] Вставка  hiii re
+2026-06-07 18:17:30,187 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii re
+2026-06-07 18:17:31,782 - StreamDock - INFO - keyDown
+2026-06-07 18:17:31,832 - StreamDock - INFO - keyUp
+2026-06-07 18:17:31,847 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:17:32,400 - StreamDock - INFO - [HiiSmiles] Вставка  priv qq Hi agahi
+2026-06-07 18:17:32,819 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  priv qq Hi agahi
+2026-06-07 18:17:33,496 - StreamDock - INFO - keyDown
+2026-06-07 18:17:33,547 - StreamDock - INFO - keyUp
+2026-06-07 18:17:33,564 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:17:34,122 - StreamDock - INFO - [HiiSmiles] Вставка  hiii ky
+2026-06-07 18:17:34,544 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii ky
+2026-06-07 18:17:34,545 - StreamDock - INFO - keyDown
+2026-06-07 18:17:34,545 - StreamDock - INFO - keyUp
+2026-06-07 18:17:34,562 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:17:35,127 - StreamDock - INFO - [HiiSmiles] Вставка  ky
+2026-06-07 18:17:35,551 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  ky
+2026-06-07 18:20:01,479 - StreamDock - INFO - keyDown
+2026-06-07 18:20:01,529 - StreamDock - INFO - keyUp
+2026-06-07 18:20:01,543 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:20:02,113 - StreamDock - INFO - [HiiSmiles] Вставка  salam hiii yoooo agahi
+2026-06-07 18:20:02,534 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  salam hiii yoooo agahi
+2026-06-07 18:20:07,537 - StreamDock - INFO - keyDown
+2026-06-07 18:20:07,587 - StreamDock - INFO - keyUp
+2026-06-07 18:20:07,602 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:20:08,151 - StreamDock - INFO - [HiiSmiles] Вставка  agahi
+2026-06-07 18:20:08,568 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi
+2026-06-07 18:20:10,089 - StreamDock - INFO - keyDown
+2026-06-07 18:20:10,140 - StreamDock - INFO - keyUp
+2026-06-07 18:20:10,154 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:20:10,713 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra hihi tahi
+2026-06-07 18:20:11,134 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra hihi tahi
+2026-06-07 18:26:21,686 - StreamDock - INFO - Plugin stopped
+2026-06-07 18:26:42,875 - StreamDock - INFO - Plugin Start
+2026-06-07 18:26:43,881 - StreamDock - INFO - WebSocket connected
+2026-06-07 18:26:43,888 - StreamDock - INFO - willAppear
+2026-06-07 18:26:43,889 - StreamDock - INFO - Loading action module: actions
+2026-06-07 18:26:43,890 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-07 18:26:43,890 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-07 18:26:44,071 - StreamDock - INFO - Loading action module: custom
+2026-06-07 18:26:44,071 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-07 18:26:44,071 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-07 18:26:44,071 - StreamDock - INFO - Loading action module: tim_example
+2026-06-07 18:26:44,071 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-07 18:26:44,073 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-07 18:26:44,073 - StreamDock - INFO - titleParametersDidChange
+2026-06-07 18:26:44,426 - StreamDock - INFO - deviceDidConnect
+2026-06-07 18:26:47,652 - StreamDock - INFO - keyDown
+2026-06-07 18:26:47,701 - StreamDock - INFO - keyUp
+2026-06-07 18:26:47,701 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-07 18:26:49,095 - StreamDock - INFO - Success caching 942 emotes for 5opka
+2026-06-07 18:26:49,163 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:26:49,342 - StreamDock - INFO - [HiiSmiles] Вставка  tahi
+2026-06-07 18:26:49,768 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  tahi
+2026-06-07 18:26:56,413 - StreamDock - INFO - keyDown
+2026-06-07 18:26:56,465 - StreamDock - INFO - keyUp
+2026-06-07 18:26:56,482 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:26:56,585 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra hiii Hii
+2026-06-07 18:26:57,005 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra hiii Hii
+2026-06-07 18:26:57,346 - StreamDock - INFO - keyDown
+2026-06-07 18:26:57,398 - StreamDock - INFO - keyUp
+2026-06-07 18:26:57,412 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:26:57,526 - StreamDock - INFO - [HiiSmiles] Вставка  agahi Hi
+2026-06-07 18:26:57,945 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi Hi
+2026-06-07 18:27:07,654 - StreamDock - INFO - keyDown
+2026-06-07 18:27:07,705 - StreamDock - INFO - keyUp
+2026-06-07 18:27:07,721 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:27:07,836 - StreamDock - INFO - [HiiSmiles] Вставка  priv
+2026-06-07 18:27:08,253 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  priv
+2026-06-07 18:27:11,221 - StreamDock - INFO - keyDown
+2026-06-07 18:27:11,270 - StreamDock - INFO - keyUp
+2026-06-07 18:27:11,285 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:27:11,392 - StreamDock - INFO - [HiiSmiles] Вставка  hii salam
+2026-06-07 18:27:11,810 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hii salam
+2026-06-07 18:27:21,471 - StreamDock - INFO - keyDown
+2026-06-07 18:27:21,523 - StreamDock - INFO - keyUp
+2026-06-07 18:27:21,537 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 18:27:21,645 - StreamDock - INFO - [HiiSmiles] Вставка  agahi hi
+2026-06-07 18:27:22,061 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  agahi hi
+2026-06-07 20:33:37,975 - StreamDock - INFO - keyDown
+2026-06-07 20:33:38,022 - StreamDock - INFO - keyUp
+2026-06-07 20:33:38,046 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 20:33:38,151 - StreamDock - INFO - [HiiSmiles] Вставка  hii re
+2026-06-07 20:33:38,582 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hii re
+2026-06-07 20:40:24,572 - StreamDock - INFO - keyDown
+2026-06-07 20:40:24,624 - StreamDock - INFO - keyUp
+2026-06-07 20:40:24,642 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-07 20:40:24,757 - StreamDock - INFO - [HiiSmiles] Вставка  yoooo hi
+2026-06-07 20:40:25,177 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yoooo hi
+2026-06-08 11:09:55,487 - StreamDock - INFO - Plugin Start
+2026-06-08 11:09:57,131 - StreamDock - INFO - WebSocket connected
+2026-06-08 11:09:57,209 - StreamDock - INFO - willAppear
+2026-06-08 11:09:57,212 - StreamDock - INFO - Loading action module: actions
+2026-06-08 11:09:57,212 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-08 11:09:57,212 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-08 11:09:57,240 - StreamDock - INFO - Loading action module: custom
+2026-06-08 11:09:57,241 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-08 11:09:57,241 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-08 11:09:57,243 - StreamDock - INFO - Loading action module: tim_example
+2026-06-08 11:09:57,243 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-08 11:09:57,243 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-08 11:09:57,244 - StreamDock - INFO - titleParametersDidChange
+2026-06-08 11:09:58,232 - StreamDock - INFO - deviceDidConnect
+2026-06-08 11:10:04,199 - StreamDock - INFO - keyDown
+2026-06-08 11:10:04,250 - StreamDock - INFO - keyUp
+2026-06-08 11:10:04,250 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-08 11:10:04,722 - StreamDock - INFO - Success caching 942 emotes for 5opka
+2026-06-08 11:10:04,806 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-08 11:10:05,022 - StreamDock - INFO - [HiiSmiles] Вставка  yoooo re
+2026-06-08 11:10:05,431 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yoooo re
+2026-06-08 11:10:10,626 - StreamDock - INFO - keyDown
+2026-06-08 11:10:10,678 - StreamDock - INFO - keyUp
+2026-06-08 11:10:10,689 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-08 11:10:10,798 - StreamDock - INFO - [HiiSmiles] Вставка  yo Hii
+2026-06-08 11:10:11,217 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  yo Hii
+2026-06-08 18:08:22,723 - StreamDock - INFO - keyDown
+2026-06-08 18:08:22,770 - StreamDock - INFO - keyUp
+2026-06-08 18:08:22,788 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-08 18:08:22,903 - StreamDock - INFO - [HiiSmiles] Вставка  hibebra Hii yoooo
+2026-06-08 18:08:23,326 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hibebra Hii yoooo
+2026-06-08 20:13:59,443 - StreamDock - INFO - keyDown
+2026-06-08 20:13:59,493 - StreamDock - INFO - keyUp
+2026-06-08 20:13:59,512 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-08 20:13:59,622 - StreamDock - INFO - [HiiSmiles] Вставка  re
+2026-06-08 20:14:00,037 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  re
+2026-06-08 22:32:05,723 - StreamDock - INFO - Plugin stopped
+2026-06-13 20:42:13,292 - StreamDock - INFO - Plugin Start
+2026-06-13 20:42:14,311 - StreamDock - INFO - WebSocket connected
+2026-06-13 20:42:14,317 - StreamDock - INFO - willAppear
+2026-06-13 20:42:14,320 - StreamDock - INFO - Loading action module: actions
+2026-06-13 20:42:14,320 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-13 20:42:14,320 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-13 20:42:14,405 - StreamDock - INFO - Loading action module: custom
+2026-06-13 20:42:14,405 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-13 20:42:14,406 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-13 20:42:14,407 - StreamDock - INFO - Loading action module: tim_example
+2026-06-13 20:42:14,407 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-13 20:42:14,407 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-13 20:42:14,407 - StreamDock - INFO - titleParametersDidChange
+2026-06-13 20:42:15,169 - StreamDock - INFO - deviceDidConnect
+2026-06-13 21:20:20,615 - StreamDock - INFO - keyDown
+2026-06-13 21:20:20,665 - StreamDock - INFO - keyUp
+2026-06-13 21:20:20,666 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-13 21:20:23,736 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
+2026-06-13 21:20:23,736 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-13 21:20:23,736 - StreamDock - INFO - keyDown
+2026-06-13 21:20:23,737 - StreamDock - INFO - keyUp
+2026-06-13 21:20:23,737 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-13 21:20:26,793 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
+2026-06-13 21:20:26,794 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-13 21:20:39,292 - StreamDock - INFO - keyDown
+2026-06-13 21:20:39,341 - StreamDock - INFO - keyUp
+2026-06-13 21:20:39,341 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-13 21:20:42,395 - StreamDock - ERROR - Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
+2026-06-13 21:20:42,395 - StreamDock - WARNING - [HiiSmiles] На канале 5opka не найдено подходящих приветственных смайликов.
+2026-06-13 21:21:37,144 - StreamDock - INFO - keyDown
+2026-06-13 21:21:37,195 - StreamDock - INFO - keyUp
+2026-06-13 21:21:37,196 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-13 21:21:37,773 - StreamDock - INFO - Success caching 943 emotes for 5opka
+2026-06-13 21:21:37,837 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-13 21:21:38,045 - StreamDock - INFO - [HiiSmiles] Вставка  salam hii tahi ky
+2026-06-13 21:21:38,455 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  salam hii tahi ky
+2026-06-14 22:42:09,286 - StreamDock - INFO - Plugin Start
+2026-06-14 22:42:10,323 - StreamDock - INFO - WebSocket connected
+2026-06-14 22:42:10,333 - StreamDock - INFO - willAppear
+2026-06-14 22:42:10,337 - StreamDock - INFO - Loading action module: actions
+2026-06-14 22:42:10,337 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-14 22:42:10,337 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-14 22:42:10,368 - StreamDock - INFO - Loading action module: custom
+2026-06-14 22:42:10,368 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-14 22:42:10,368 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-14 22:42:10,369 - StreamDock - INFO - Loading action module: tim_example
+2026-06-14 22:42:10,370 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-14 22:42:10,370 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-14 22:42:10,370 - StreamDock - INFO - titleParametersDidChange
+2026-06-14 22:42:11,390 - StreamDock - INFO - deviceDidConnect
+2026-06-14 23:00:23,638 - StreamDock - INFO - Plugin stopped
+2026-06-15 20:47:19,268 - StreamDock - INFO - Plugin Start
+2026-06-15 20:47:20,338 - StreamDock - INFO - WebSocket connected
+2026-06-15 20:47:20,405 - StreamDock - INFO - willAppear
+2026-06-15 20:47:20,408 - StreamDock - INFO - Loading action module: actions
+2026-06-15 20:47:20,408 - StreamDock - INFO - Successfully registered action: actions -> HiiSmiles
+2026-06-15 20:47:20,408 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>}
+2026-06-15 20:47:20,439 - StreamDock - INFO - Loading action module: custom
+2026-06-15 20:47:20,439 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-15 20:47:20,439 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-15 20:47:20,442 - StreamDock - INFO - Loading action module: tim_example
+2026-06-15 20:47:20,442 - StreamDock - INFO - Successfully registered action: tim_example -> Time
+2026-06-15 20:47:20,442 - StreamDock - INFO - Registered action types: {'actions': <class 'actions.actions.HiiSmiles'>, 'custom': <class 'actions.custom.Custom'>, 'tim_example': <class 'actions.tim_example.Time'>}
+2026-06-15 20:47:20,442 - StreamDock - INFO - titleParametersDidChange
+2026-06-15 20:47:21,266 - StreamDock - INFO - deviceDidConnect

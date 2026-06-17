@@ -9,3 +9,4 @@ wheel~=0.45.1
 setuptools~=78.1.0
 pyperclip == 1.11.0
 pyautogui == 0.9.54
+keyboard==0.13.5

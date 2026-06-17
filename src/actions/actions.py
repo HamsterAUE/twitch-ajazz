@@ -15,6 +15,7 @@ class HiiSmiles(Action):
         self.cached_emotes = []
 
     def update_cache(self, streamer):
+        self.cached_emotes = []
         url = "https://7tv.io/v3/gql"
         query = """
             query Users($query: String!, $limit: Int) {
@@ -123,7 +124,7 @@ class HiiSmiles(Action):
         # Регулярное выражение для поиска корней приветствия в имени смайлика
         keywords = ["qq", "ky", "hi", "hii", "priv", "hello", "yo", "agahi", "tahi", "qqq"]
 
-        EXCLUDE_SMILES = ["JUDGE"]
+        EXCLUDE_SMILES = ["JUDGE", "fm", "raid"]
 
 
         for emote in self.cached_emotes:
@@ -155,11 +156,11 @@ class HiiSmiles(Action):
 
 
                     if re.match(r'^hi+', first_word) or re.match(r'^yo+', first_word):
-                        if len(first_word) <= 3:
+                        if len(first_word) <= 4 and "you" not in first_word:
                             is_greeting = True
 
                     if re.match(r'.*hi+$', last_word) or re.match(r'.*yo+$', last_word):
-                        if len(last_word) <= 3:
+                        if len(last_word) <= 4 and "you" not in last_word:
                             is_greeting = True
 
             # Способ 4: Финальный предохранитель (Жёсткий отбор для смайликов БЕЗ тегов)
@@ -168,7 +169,7 @@ class HiiSmiles(Action):
                 or name_lower.endswith("hi")):
                     is_greeting = True
 
-            if is_greeting and name not in EXCLUDE_SMILES:
+            if is_greeting and not any(smile in name for smile in EXCLUDE_SMILES):
                 greeting_emotes.append(name)
         random.shuffle(greeting_emotes)
         return greeting_emotes
@@ -188,6 +189,7 @@ class HiiSmiles(Action):
 
             import pyperclip
             import pyautogui
+            import keyboard
 
             # Выбираем от 1 до 3 случайных приветственных смайликов
             x = random.randint(1, 4)
@@ -196,17 +198,18 @@ class HiiSmiles(Action):
             text_to_insert = " " + " ".join(chosen_smiles)
 
             try:
-                # Сохраняем текущее содержимое буфера обмена пользователя
+                # 1. Запоминаем текущий буфер
                 old_clipboard = pyperclip.paste()
 
+                # 2. Копируем наши смайлы
                 pyperclip.copy(text_to_insert)
+                Logger.info(f"[HiiSmiles] Копирование")
+                sleep(0.1)
+                keyboard.send("ctrl+v")
+                Logger.info(f"[HiiSmiles] Вставка {pyperclip.paste()}")
+                sleep(0.4)
 
-                pyautogui.hotkey('ctrl', 'v')
-
-                # Небольшая пауза, чтобы Windows успел выполнить операцию вставки
-                sleep(0.05)
-
-                # Возвращаем пользователю его старый текст в буфер обмена
+                # 5. Возвращаем старый текст
                 pyperclip.copy(old_clipboard)
 
                 Logger.info(f"[HiiSmiles] Успешно дозаписаны смайлики для {detected_streamer}: {text_to_insert}")
