@@ -12,10 +12,10 @@ class SendRandomEmote(Action):
         super().__init__(action, context, settings, plugin)
         self.current_streamer = None
         self.cached_emotes = []
-        self.KEYWORDS = []
-        self.TAGS = []
-        self.EXCLUDE = []
-        self.MATCH_WORDS = []
+        self.KEYWORDS = None
+        self.TAGS = None
+        self.EXCLUDE = None
+        self.MATCH_WORDS = None
 
 
 
@@ -160,6 +160,9 @@ class SendRandomEmote(Action):
                         if re.match(matchstr, first_word) or re.match(matchstr, last_word):
                                 emote_fits = True
 
+            # Способ 3: Грубая проверка на вхождение ключа в название эмоута
+            if next((key for key in self.KEYWORDS if key in name), False):
+                emote_fits = True
             #Финальная проверка на наличие не совпадающих тегов и наличие в исключениях
             if emote_fits and not tags:
                 if not any(smile in name for smile in self.EXCLUDE):
@@ -426,7 +429,7 @@ class HiiSmiles(Action, SendRandomEmote):
         else:
             Logger.warning(f"[HiiSmiles] На канале {detected_streamer} не найдено подходящих приветственных смайликов.")
 
-class SpeedEmotes(Action, SendRandomEmote):
+class SpeedEmotes(SendRandomEmote):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
 
