@@ -731,3 +731,652 @@
 2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: pigdans
 2026-06-17 19:15:52,362 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HandShake
 2026-06-17 19:15:52,363 - StreamDock - ERROR - WebSocket error: 'NoneType' object is not iterable
+2026-06-17 19:17:59,962 - StreamDock - INFO - Plugin stopped
+2026-06-17 19:20:43,205 - StreamDock - INFO - Plugin Start
+2026-06-17 19:20:44,216 - StreamDock - INFO - WebSocket connected
+2026-06-17 19:20:44,701 - StreamDock - INFO - deviceDidConnect
+2026-06-17 19:20:47,011 - StreamDock - INFO - willAppear
+2026-06-17 19:20:47,013 - StreamDock - INFO - Loading action module: actions
+2026-06-17 19:20:47,013 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-17 19:20:47,013 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-17 19:20:47,013 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-17 19:20:47,013 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-17 19:20:47,013 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-17 19:20:47,013 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-17 19:20:47,028 - StreamDock - INFO - Loading action module: custom
+2026-06-17 19:20:47,028 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-17 19:20:47,028 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-17 19:20:47,029 - StreamDock - INFO - Loading action module: tim_example
+2026-06-17 19:20:47,029 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-17 19:20:47,029 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-17 19:20:47,030 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 19:20:47,030 - StreamDock - INFO - willAppear
+2026-06-17 19:20:47,030 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 19:20:56,486 - StreamDock - INFO - keyDown
+2026-06-17 19:20:56,536 - StreamDock - INFO - keyUp
+2026-06-17 19:20:56,537 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-17 19:20:57,133 - StreamDock - INFO - [SendRandomEmote]Success caching 947 emotes for 5opka
+2026-06-17 19:20:57,135 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:20:57,135 - StreamDock - ERROR - WebSocket error: 'NoneType' object is not iterable
+2026-06-17 19:27:15,421 - StreamDock - INFO - Plugin stopped
+2026-06-17 19:28:32,423 - StreamDock - INFO - Plugin Start
+2026-06-17 19:28:33,440 - StreamDock - INFO - WebSocket connected
+2026-06-17 19:28:33,949 - StreamDock - INFO - deviceDidConnect
+2026-06-17 19:28:42,052 - StreamDock - INFO - willAppear
+2026-06-17 19:28:42,054 - StreamDock - INFO - Loading action module: actions
+2026-06-17 19:28:42,054 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-17 19:28:42,054 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-17 19:28:42,054 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-17 19:28:42,054 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-17 19:28:42,054 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-17 19:28:42,054 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-17 19:28:42,069 - StreamDock - INFO - Loading action module: custom
+2026-06-17 19:28:42,069 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-17 19:28:42,069 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-17 19:28:42,070 - StreamDock - INFO - Loading action module: tim_example
+2026-06-17 19:28:42,070 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-17 19:28:42,071 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-17 19:28:42,071 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 19:28:42,071 - StreamDock - INFO - willAppear
+2026-06-17 19:28:42,071 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 19:28:42,906 - StreamDock - INFO - keyDown
+2026-06-17 19:28:42,957 - StreamDock - INFO - keyUp
+2026-06-17 19:28:42,958 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-17 19:28:43,510 - StreamDock - INFO - Success caching 947 emotes for 5opka
+2026-06-17 19:28:43,568 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-17 19:28:43,753 - StreamDock - INFO - [HiiSmiles] Вставка  hiii
+2026-06-17 19:28:44,164 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  hiii
+2026-06-17 19:28:46,732 - StreamDock - INFO - keyDown
+2026-06-17 19:28:46,782 - StreamDock - INFO - keyUp
+2026-06-17 19:28:46,782 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-17 19:28:47,508 - StreamDock - INFO - [SendRandomEmote]Success caching 947 emotes for 5opka
+2026-06-17 19:28:47,510 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:28:47,511 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:28:47,517 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:28:47,633 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedJump
+2026-06-17 19:28:48,041 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedJump
+2026-06-17 19:28:51,917 - StreamDock - INFO - keyDown
+2026-06-17 19:28:51,967 - StreamDock - INFO - keyUp
+2026-06-17 19:28:51,967 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:28:51,968 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:28:51,969 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:28:51,969 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:28:51,969 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:28:51,969 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:28:51,974 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:28:52,083 - StreamDock - INFO - [SendRandomEmote] Вставка  sayWALLAHI
+2026-06-17 19:28:52,503 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  sayWALLAHI
+2026-06-17 19:28:54,580 - StreamDock - INFO - keyDown
+2026-06-17 19:28:54,632 - StreamDock - INFO - keyUp
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:28:54,632 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:28:54,633 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:28:54,639 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:28:54,746 - StreamDock - INFO - [SendRandomEmote] Вставка  speed21
+2026-06-17 19:28:55,165 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed21
+2026-06-17 19:28:56,989 - StreamDock - INFO - keyDown
+2026-06-17 19:28:57,038 - StreamDock - INFO - keyUp
+2026-06-17 19:28:57,038 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:28:57,039 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:28:57,040 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:28:57,045 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:28:57,158 - StreamDock - INFO - [SendRandomEmote] Вставка  speedDemon
+2026-06-17 19:28:57,565 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speedDemon
+2026-06-17 19:29:36,799 - StreamDock - INFO - keyDown
+2026-06-17 19:29:36,849 - StreamDock - INFO - keyUp
+2026-06-17 19:29:36,860 - StreamDock - INFO - [HiiSmiles] Копирование
+2026-06-17 19:29:36,973 - StreamDock - INFO - [HiiSmiles] Вставка  Hi qqq re
+2026-06-17 19:29:37,393 - StreamDock - INFO - [HiiSmiles] Успешно дозаписаны смайлики для 5opka:  Hi qqq re
+2026-06-17 19:30:34,107 - StreamDock - INFO - keyDown
+2026-06-17 19:30:34,158 - StreamDock - INFO - keyUp
+2026-06-17 19:30:34,158 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:30:34,159 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:30:34,160 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:30:34,165 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:30:34,281 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-17 19:30:34,687 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedLaugh
+2026-06-17 19:31:46,006 - StreamDock - INFO - keyDown
+2026-06-17 19:31:46,055 - StreamDock - INFO - keyUp
+2026-06-17 19:31:46,056 - StreamDock - WARNING - [SendRandomEmote] No Twitch tab detected.
+2026-06-17 19:31:48,540 - StreamDock - INFO - keyDown
+2026-06-17 19:31:48,591 - StreamDock - INFO - keyUp
+2026-06-17 19:31:48,591 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:31:48,592 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:31:48,593 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:31:48,593 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:31:48,593 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:31:48,593 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:31:48,593 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:31:48,599 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:31:48,709 - StreamDock - INFO - [SendRandomEmote] Вставка  speedStressed
+2026-06-17 19:31:49,116 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speedStressed
+2026-06-17 19:31:58,017 - StreamDock - INFO - keyDown
+2026-06-17 19:31:58,068 - StreamDock - INFO - keyUp
+2026-06-17 19:31:58,068 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:31:58,069 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:31:58,070 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:31:58,070 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:31:58,070 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:31:58,070 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:31:58,075 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:31:58,179 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedBounce
+2026-06-17 19:31:58,600 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedBounce
+2026-06-17 19:31:58,600 - StreamDock - INFO - keyDown
+2026-06-17 19:31:58,600 - StreamDock - INFO - keyUp
+2026-06-17 19:31:58,600 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:31:58,601 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:31:58,602 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:31:58,611 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:31:58,719 - StreamDock - INFO - [SendRandomEmote] Вставка  speed21
+2026-06-17 19:31:59,136 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed21
+2026-06-17 19:31:59,137 - StreamDock - INFO - keyDown
+2026-06-17 19:31:59,137 - StreamDock - INFO - keyUp
+2026-06-17 19:31:59,137 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:31:59,137 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:31:59,137 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:31:59,138 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:31:59,139 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:31:59,139 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:31:59,147 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:31:59,255 - StreamDock - INFO - [SendRandomEmote] Вставка  COCK
+2026-06-17 19:31:59,677 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  COCK
+2026-06-17 19:31:59,677 - StreamDock - INFO - keyDown
+2026-06-17 19:31:59,678 - StreamDock - INFO - keyUp
+2026-06-17 19:31:59,678 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:31:59,678 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:31:59,678 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:31:59,679 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:31:59,680 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:31:59,680 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:31:59,680 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:31:59,687 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:31:59,793 - StreamDock - INFO - [SendRandomEmote] Вставка  OOOO
+2026-06-17 19:32:00,200 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  OOOO
+2026-06-17 19:32:00,200 - StreamDock - INFO - keyDown
+2026-06-17 19:32:00,201 - StreamDock - INFO - keyUp
+2026-06-17 19:32:00,201 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:32:00,201 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:32:00,202 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:32:00,203 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:32:00,203 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:32:00,203 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:32:00,203 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:32:00,203 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:32:00,210 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:32:00,319 - StreamDock - INFO - [SendRandomEmote] Вставка  speed21
+2026-06-17 19:32:00,726 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed21
+2026-06-17 19:32:02,556 - StreamDock - INFO - keyDown
+2026-06-17 19:32:02,606 - StreamDock - INFO - keyUp
+2026-06-17 19:32:02,606 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:32:02,607 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:32:02,608 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:32:02,615 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:32:02,720 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-17 19:32:03,139 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedLaugh
+2026-06-17 19:32:03,196 - StreamDock - INFO - keyDown
+2026-06-17 19:32:03,246 - StreamDock - INFO - keyUp
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:32:03,247 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:32:03,248 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:32:03,255 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:32:03,367 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedJump
+2026-06-17 19:32:03,788 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedJump
+2026-06-17 19:38:46,602 - StreamDock - INFO - keyDown
+2026-06-17 19:38:46,653 - StreamDock - INFO - keyUp
+2026-06-17 19:38:46,653 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed']
+2026-06-17 19:38:46,653 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 19:38:46,653 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 19:38:46,654 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 19:38:46,661 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 19:38:46,769 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedFlip
+2026-06-17 19:38:47,177 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedFlip
+2026-06-17 19:47:26,446 - StreamDock - INFO - Plugin stopped
+2026-06-17 19:48:10,287 - StreamDock - INFO - Plugin Start
+2026-06-17 19:48:11,299 - StreamDock - INFO - WebSocket connected
+2026-06-17 19:48:11,911 - StreamDock - INFO - deviceDidConnect
+2026-06-17 20:04:17,584 - StreamDock - INFO - willAppear
+2026-06-17 20:04:17,587 - StreamDock - INFO - Loading action module: actions
+2026-06-17 20:04:17,587 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-17 20:04:17,587 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-17 20:04:17,587 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-17 20:04:17,587 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-17 20:04:17,587 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-17 20:04:17,588 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-17 20:04:17,605 - StreamDock - INFO - Loading action module: custom
+2026-06-17 20:04:17,605 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-17 20:04:17,605 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-17 20:04:17,606 - StreamDock - INFO - Loading action module: tim_example
+2026-06-17 20:04:17,607 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-17 20:04:17,607 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-17 20:04:17,607 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 20:04:17,607 - StreamDock - INFO - willAppear
+2026-06-17 20:04:17,607 - StreamDock - INFO - titleParametersDidChange
+2026-06-17 20:04:18,298 - StreamDock - INFO - keyDown
+2026-06-17 20:04:18,348 - StreamDock - INFO - keyUp
+2026-06-17 20:04:18,349 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-17 20:04:19,191 - StreamDock - INFO - [SendRandomEmote]Success caching 947 emotes for 5opka
+2026-06-17 20:04:19,195 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-17 20:04:19,195 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 20:04:19,196 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 20:04:19,197 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 20:04:19,197 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 20:04:19,197 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 20:04:19,197 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 20:04:19,251 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 20:04:19,430 - StreamDock - INFO - [SendRandomEmote] Вставка  speed21
+2026-06-17 20:04:19,843 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed21
+2026-06-17 20:07:23,650 - StreamDock - INFO - keyDown
+2026-06-17 20:07:23,701 - StreamDock - INFO - keyUp
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 20:07:23,702 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 20:07:23,703 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 20:07:23,710 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 20:07:23,815 - StreamDock - INFO - [SendRandomEmote] Вставка  speed2
+2026-06-17 20:07:24,236 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed2
+2026-06-17 20:20:09,994 - StreamDock - INFO - keyDown
+2026-06-17 20:20:10,045 - StreamDock - INFO - keyUp
+2026-06-17 20:20:10,045 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 20:20:10,046 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 20:20:10,055 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 20:20:10,165 - StreamDock - INFO - [SendRandomEmote] Вставка  speedDemon
+2026-06-17 20:20:10,586 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speedDemon
+2026-06-17 20:50:22,179 - StreamDock - INFO - keyDown
+2026-06-17 20:50:22,230 - StreamDock - INFO - keyUp
+2026-06-17 20:50:22,230 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-17 20:50:22,231 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 20:50:22,231 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 20:50:22,231 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 20:50:22,231 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 20:50:22,231 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 20:50:22,232 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 20:50:22,233 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 20:50:22,245 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 20:50:22,357 - StreamDock - INFO - [SendRandomEmote] Вставка  speed2
+2026-06-17 20:50:22,783 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  speed2
+2026-06-17 20:50:25,063 - StreamDock - INFO - keyDown
+2026-06-17 20:50:25,113 - StreamDock - INFO - keyUp
+2026-06-17 20:50:25,113 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: HeCrazy
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-17 20:50:25,114 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-17 20:50:25,124 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-17 20:50:25,232 - StreamDock - INFO - [SendRandomEmote] Вставка  sayWALLAHI
+2026-06-17 20:50:25,657 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  sayWALLAHI
+2026-06-20 12:41:27,852 - StreamDock - INFO - Plugin Start
+2026-06-20 12:41:28,867 - StreamDock - INFO - WebSocket connected
+2026-06-20 12:41:29,521 - StreamDock - INFO - deviceDidConnect
+2026-06-20 12:41:35,484 - StreamDock - INFO - deviceDidDisconnect
+2026-06-20 12:41:35,891 - StreamDock - INFO - deviceDidConnect
+2026-06-20 12:41:36,227 - StreamDock - INFO - deviceDidDisconnect
+2026-06-20 12:41:36,425 - StreamDock - INFO - deviceDidConnect
+2026-06-20 13:09:55,305 - StreamDock - INFO - willAppear
+2026-06-20 13:09:55,307 - StreamDock - INFO - Loading action module: actions
+2026-06-20 13:09:55,307 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-20 13:09:55,307 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-20 13:09:55,307 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-20 13:09:55,307 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-20 13:09:55,307 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-20 13:09:55,308 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-20 13:09:55,332 - StreamDock - INFO - Loading action module: custom
+2026-06-20 13:09:55,332 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-20 13:09:55,332 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-20 13:09:55,333 - StreamDock - INFO - Loading action module: tim_example
+2026-06-20 13:09:55,333 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-20 13:09:55,333 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-20 13:09:55,334 - StreamDock - INFO - titleParametersDidChange
+2026-06-20 13:09:55,334 - StreamDock - INFO - willAppear
+2026-06-20 13:09:55,334 - StreamDock - INFO - titleParametersDidChange
+2026-06-20 13:09:57,133 - StreamDock - INFO - keyDown
+2026-06-20 13:09:57,185 - StreamDock - INFO - keyUp
+2026-06-20 13:09:57,185 - StreamDock - INFO - Loading 7TV emotes from: (1) 5opka
+2026-06-20 13:10:00,257 - StreamDock - ERROR - [SendRandomEmote]Cant get 7TV emotes by Exception: SOCKSHTTPSConnectionPool(host='7tv.io', port=443): Read timed out. (read timeout=3.05)
+2026-06-20 13:10:00,257 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-20 13:10:00,258 - StreamDock - WARNING - [SendRandomEmote] На канале (1) 5opka не найдено подходящих смайликов.
+2026-06-20 14:58:03,828 - StreamDock - INFO - keyDown
+2026-06-20 14:58:03,877 - StreamDock - INFO - keyUp
+2026-06-20 14:58:03,878 - StreamDock - INFO - Loading 7TV emotes from: 5opka
+2026-06-20 14:58:04,613 - StreamDock - INFO - [SendRandomEmote]Success caching 908 emotes for 5opka
+2026-06-20 14:58:04,618 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: COCK
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: OOOO
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedStressed
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedCrazy
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: wideprespeedlaugh
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedAnnoyed
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed21
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedFlip
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJump
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedBounce
+2026-06-20 14:58:04,619 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedThink
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: sayWALLAHI
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speedDemon
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedDrive
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: speed2
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: KILLTHATBOY
+2026-06-20 14:58:04,620 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedJumpscare
+2026-06-20 14:58:04,697 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-20 14:58:04,892 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedAnnoyed
+2026-06-20 14:58:05,311 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для 5opka:  SpeedAnnoyed
+2026-06-20 14:59:15,494 - StreamDock - INFO - deviceDidDisconnect
+2026-06-20 14:59:18,606 - StreamDock - INFO - deviceDidDisconnect
+2026-06-20 14:59:18,727 - StreamDock - INFO - deviceDidConnect
+2026-06-20 14:59:18,835 - StreamDock - INFO - deviceDidConnect
+2026-06-21 21:44:13,646 - StreamDock - INFO - Plugin Start
+2026-06-21 21:44:14,691 - StreamDock - INFO - WebSocket connected
+2026-06-21 21:44:15,551 - StreamDock - INFO - deviceDidConnect
+2026-06-21 21:45:15,998 - StreamDock - INFO - willAppear
+2026-06-21 21:45:16,001 - StreamDock - INFO - Loading action module: actions
+2026-06-21 21:45:16,001 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-21 21:45:16,001 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-21 21:45:16,001 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-21 21:45:16,001 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-21 21:45:16,001 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-21 21:45:16,001 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-21 21:45:16,023 - StreamDock - INFO - Loading action module: custom
+2026-06-21 21:45:16,023 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-21 21:45:16,023 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-21 21:45:16,024 - StreamDock - INFO - Loading action module: tim_example
+2026-06-21 21:45:16,024 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-21 21:45:16,024 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-21 21:45:16,025 - StreamDock - INFO - titleParametersDidChange
+2026-06-21 21:45:16,025 - StreamDock - INFO - willAppear
+2026-06-21 21:45:16,025 - StreamDock - INFO - titleParametersDidChange
+2026-06-21 21:45:16,924 - StreamDock - INFO - keyDown
+2026-06-21 21:45:16,975 - StreamDock - INFO - keyUp
+2026-06-21 21:45:16,976 - StreamDock - INFO - Loading 7TV emotes from: meowh0cki
+2026-06-21 21:45:17,649 - StreamDock - INFO - [SendRandomEmote]Success caching 749 emotes for meowh0cki
+2026-06-21 21:45:17,651 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-21 21:45:17,652 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-21 21:45:17,704 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-21 21:45:17,883 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-21 21:45:18,294 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для meowh0cki:  SpeedLaugh
+2026-06-21 21:45:18,971 - StreamDock - INFO - keyDown
+2026-06-21 21:45:19,022 - StreamDock - INFO - keyUp
+2026-06-21 21:45:19,023 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-21 21:45:19,023 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-21 21:45:19,028 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-21 21:45:19,142 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-21 21:45:19,552 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для meowh0cki:  SpeedLaugh
+2026-06-21 21:45:19,843 - StreamDock - INFO - keyDown
+2026-06-21 21:45:19,893 - StreamDock - INFO - keyUp
+2026-06-21 21:45:19,893 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-21 21:45:19,894 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-21 21:45:19,900 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-21 21:45:20,011 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-21 21:45:20,432 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для meowh0cki:  SpeedLaugh
+2026-06-21 21:45:20,624 - StreamDock - INFO - keyDown
+2026-06-21 21:45:20,674 - StreamDock - INFO - keyUp
+2026-06-21 21:45:20,675 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-21 21:45:20,675 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-21 21:45:20,681 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-21 21:45:20,798 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-21 21:45:21,219 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для meowh0cki:  SpeedLaugh
+2026-06-21 21:45:21,321 - StreamDock - INFO - keyDown
+2026-06-21 21:45:21,372 - StreamDock - INFO - keyUp
+2026-06-21 21:45:21,372 - StreamDock - INFO - [SendRandomEmote]['speed', 'ishowspeed']; ['speed', 'ishowspeed', 'RespectOhio']
+2026-06-21 21:45:21,373 - StreamDock - INFO - [SendRandomEmote] Отфильтровано: SpeedLaugh
+2026-06-21 21:45:21,381 - StreamDock - INFO - [SendRandomEmote] Копирование
+2026-06-21 21:45:21,497 - StreamDock - INFO - [SendRandomEmote] Вставка  SpeedLaugh
+2026-06-21 21:45:21,916 - StreamDock - INFO - [SendRandomEmote] Успешно дозаписаны смайлики для meowh0cki:  SpeedLaugh
+2026-06-21 22:31:41,187 - StreamDock - INFO - Plugin Start
+2026-06-21 22:31:42,204 - StreamDock - INFO - WebSocket connected
+2026-06-21 22:31:42,208 - StreamDock - INFO - deviceDidConnect
+2026-06-21 22:31:42,209 - StreamDock - INFO - willAppear
+2026-06-21 22:31:42,210 - StreamDock - INFO - Loading action module: actions
+2026-06-21 22:31:42,210 - StreamDock - INFO - Successfully registered action: sendrandomemote -> SendRandomEmote
+2026-06-21 22:31:42,210 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>}
+2026-06-21 22:31:42,210 - StreamDock - INFO - Successfully registered action: hiismiles -> hiismiles
+2026-06-21 22:31:42,211 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>}
+2026-06-21 22:31:42,211 - StreamDock - INFO - Successfully registered action: speedemotes -> speedemotes
+2026-06-21 22:31:42,211 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>}
+2026-06-21 22:31:42,227 - StreamDock - INFO - Loading action module: custom
+2026-06-21 22:31:42,227 - StreamDock - INFO - Successfully registered action: custom -> Custom
+2026-06-21 22:31:42,227 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>}
+2026-06-21 22:31:42,228 - StreamDock - INFO - Loading action module: tim_example
+2026-06-21 22:31:42,228 - StreamDock - INFO - Successfully registered action: time -> Time
+2026-06-21 22:31:42,228 - StreamDock - INFO - Registered action types: {'sendrandomemote': <class 'actions.actions.SendRandomEmote'>, 'hiismiles': <class 'actions.actions.hiismiles'>, 'speedemotes': <class 'actions.actions.speedemotes'>, 'custom': <class 'actions.custom.Custom'>, 'time': <class 'actions.tim_example.Time'>}
+2026-06-21 22:31:42,229 - StreamDock - INFO - titleParametersDidChange
+2026-06-21 22:31:42,229 - StreamDock - INFO - willAppear
+2026-06-21 22:31:42,229 - StreamDock - INFO - titleParametersDidChange
+2026-07-01 21:22:30,167 - StreamDock - INFO - Plugin Start
+2026-07-01 21:22:31,205 - StreamDock - INFO - WebSocket connected
+2026-07-01 21:22:32,093 - StreamDock - INFO - deviceDidConnect
+2026-07-01 23:09:26,832 - StreamDock - INFO - Plugin Start
+2026-07-01 23:09:27,841 - StreamDock - INFO - WebSocket connected
+2026-07-01 23:09:27,845 - StreamDock - INFO - deviceDidConnect

@@ -1,12 +1,12 @@
 /**
- * PropertyInspector 2.5.0 新特性 =>
+ * Новые возможности PropertyInspector 2.5.0 =>
  * 
- *      1 => 工具与主文件相分离 - 按需引入
- *      2 => $settings - 全局持久化数据代理 ※
- *      3 => 无需关注上下文 - 随时随地与插件通信
- *      4 => 注意事项: 为了避免命名冲突，请勿使用 $ 相关的名称以及JQuery库
+ *1=> Инструмент отделен от основного файла - вводится по запросу
+ *2 => $настройки - глобальный постоянный прокси-сервер данных ※
+ *3=> Не нужно обращать внимание на контекст - общайтесь с плагинами в любое время и в любом месте.
+ *4=> Меры предосторожности: Во избежание конфликтов имен, пожалуйста, не используйте связанные с $ имена и библиотеку jQuery
  * 
- * ===== MiraBox ========================================== 2025.4.9 =====>
+ * ===== Мирабокс ========================================== 2025.4.9 =====>
  */
 
 let $websocket, $uuid, $action, $context, $settings, $lang;
@@ -84,7 +84,7 @@ WebSocket.prototype.saveData = $.debounce(function (payload) {
     }))
 }, 0)
 
-// StreamDock 软件入口函数
+// Функция ввода программного обеспечения StreamDock
 const connectSocket = connectElgatoStreamDeckSocket;
 async function connectElgatoStreamDeckSocket(port, uuid, event, app, info) {
     info = JSON.parse(info);
@@ -92,7 +92,7 @@ async function connectElgatoStreamDeckSocket(port, uuid, event, app, info) {
     $websocket = new WebSocket('ws://127.0.0.1:' + port);
     $websocket.onopen = () => $websocket.send(JSON.stringify({ event, uuid }));
 
-    // 持久数据代理
+    // Постоянный прокси-сервер передачи данных
     $websocket.onmessage = e => {
         let data = JSON.parse(e.data);
         if (data.event === 'didReceiveSettings') {

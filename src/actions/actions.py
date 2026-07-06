@@ -11,13 +11,12 @@ class SendRandomEmote(Action):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
         self.x = random.randint(1, 4)
-        self.current_streamer = None
+        self.current_streamer = []
         self.cached_emotes = []
-        self.KEYWORDS = None
-        self.TAGS = None
-        self.EXCLUDE = None
-        self.MATCH_WORDS = None
-
+        self.KEYWORDS = []
+        self.TAGS = []
+        self.EXCLUDE = []
+        self.MATCH_WORDS = []
 
 
     def update_cache(self, streamer):
@@ -100,7 +99,6 @@ class SendRandomEmote(Action):
             Logger.error(f"[SendRandomEmote]Cant get 7TV emotes by Exception: {e}")
 
 
-
     def get_current_twitch_streamer(self):
         try:
             # Получаем окно, которое сейчас открыто перед пользователем
@@ -115,6 +113,7 @@ class SendRandomEmote(Action):
         except Exception as e:
             Logger.error("[SendRandomEmote]Failed to get Twitch streamer info. Exception: {}".format(e))
         return None
+
 
     @classmethod
     def split_camel(cls, name):
@@ -174,7 +173,6 @@ class SendRandomEmote(Action):
         return suitable_emotes
 
 
-
     def on_key_up(self, payload):
         detected_streamer = self.get_current_twitch_streamer()
         if not detected_streamer:
@@ -186,17 +184,35 @@ class SendRandomEmote(Action):
 
         Logger.info(f"[SendRandomEmote]{self.TAGS}; {self.KEYWORDS}")
 
-        valid_greeting_emotes = self.filter_emotes()
+        valid_emotes = self.filter_emotes()
 
-        if valid_greeting_emotes:
+        if valid_emotes:
 
             import pyperclip
             import pyautogui
             import keyboard
 
-            # Выбираем от 1 до 3 случайных приветственных смайликов
-            count = min(self.x, len(valid_greeting_emotes))
-            chosen_smiles = random.sample(valid_greeting_emotes, count)
+
+            emote_count_setting = self.settings.get("emote_count", 3)
+
+            if emote_count_setting == "random":
+                # Считываем диапазон из настроек
+                min_val = self.settings.get("min_emotes", 1)
+                max_val = self.settings.get("max_emotes", 4)
+
+                if min_val > max_val:
+                   min_val, max_val = max_val, min_val
+                count = random.randint(min_val, max_val)
+            else:
+                try:
+                    count = int(emote_count_setting)
+                except (ValueError, TypeError):
+                    count = 3  # Дефолтное значение при ошибке
+
+            amount = min(count, len(valid_emotes))
+            # Выбираем от 1 до 3 случайных смайликов
+
+            chosen_smiles = random.sample(valid_emotes, amount)
             text_to_insert = " " + " ".join(chosen_smiles)
 
             try:
@@ -437,5 +453,13 @@ class speedemotes(SendRandomEmote):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
         self.x = 1
-        self.KEYWORDS = ["speed", "ishowspeed"]
+        self.KEYWORDS = ["speed", "ishowspeed", "RespectOhio"]
         self.TAGS = ["speed", "ishowspeed"]
+        self.cached_emotes = []
+        self.EXCLUDE = []
+        self.MATCH_WORDS = []
+
+    def on_did_receive_settings(self, settings):
+        self.settings = settings
+        self.x = settings.get("emote_count", 1)
+        Logger.info(f"[HiiSmiles] Настройки обновлены. Новое количество смайлов: {self.x}")

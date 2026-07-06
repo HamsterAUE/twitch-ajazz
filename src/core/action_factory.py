@@ -56,24 +56,24 @@ class ActionFactory:
 
     @classmethod
     def scan_and_register_actions(cls):
-        """扫描actions目录并自动注册所有Action类型"""
+        """Сканируйте каталог действий и автоматически регистрируйте все типы действий"""
         import sys
         import traceback
 
-        # 获取正确的actions目录路径
+        # Укажите правильный путь к каталогу действий
         if getattr(sys, 'frozen', False):
-            # 如果是打包后的环境，使用sys._MEIPASS
+            # Если это упакованная среда, используйте sys._MEIPASS
             base_path = sys._MEIPASS
-            # 在打包环境下，从src目录下查找actions目录
+            # В среде упаковки найдите каталог actions из каталога src
             actions_dir = os.path.join(base_path, 'src', 'actions')
         else:
-            # 开发环境下使用相对路径
+            # Использовать относительные пути в среде разработки
             actions_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'actions')
         if not os.path.exists(actions_dir):
             Logger.error(f"Actions directory not found: {actions_dir}")
             return
 
-        # 将src目录添加到Python路径中
+        # Добавьте каталог src в путь к Python
         src_dir = os.path.dirname(actions_dir)
         if src_dir not in sys.path:
             sys.path.insert(0, src_dir)

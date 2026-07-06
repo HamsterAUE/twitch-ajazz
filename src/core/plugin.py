@@ -48,32 +48,32 @@ class Plugin:
         threading.Thread(target=self.ws.run_forever, daemon=True).start()
     
     def _on_open(self, ws, event: str, plugin_uuid: str):
-        """WebSocket连接建立时的回调函数
-        
-        向Stream Dock注册插件，发送初始化事件。
-        
-        Args:
-            ws: WebSocket连接实例
-            event: 事件类型
-            plugin_uuid: 插件UUID
-        """        
+        """Функция обратного вызова при установлении соединения с WebSocket
+
+                Зарегистрируйте подключаемый модуль в Stream Dock и отправьте событие инициализации.
+
+                Аргументы:
+                    ws: экземпляр подключения к WebSocket
+                    событие: тип события
+                    plugin_uuid: UUID подключаемого модуля
+                """
         Logger.info("WebSocket connected")
         
         ws.send(json.dumps({'event': event, 'uuid': plugin_uuid}))
     
     def _on_message(self, ws, message):
-        """处理从Stream Dock接收到的WebSocket消息
-        
-        根据接收到的事件类型执行相应的操作，包括：
-        - 处理全局settings更新
-        - 处理按钮出现/消失事件
-        - 处理按钮settings更改
-        - 处理标题参数更改
-        
-        Args:
-            ws: WebSocket连接实例
-            message: 接收到的JSON消息
-        """        
+        """Обработать сообщение WebSocket, полученное из Stream Dock
+
+                Выполните соответствующие действия в зависимости от типа полученного события, включая：
+                -Обрабатывать обновления глобальных настроек
+                -Обрабатывать события появления/исчезновения кнопок
+                -Изменение настроек кнопки управления
+                -Обрабатывать изменения параметров заголовка
+
+                Аргументы:
+                    ws: экземпляр подключения к WebSocket
+                    сообщение: получено JSON-сообщение
+                """
         data = json.loads(message)
         event = data.get('event')
         Logger.info(event)
