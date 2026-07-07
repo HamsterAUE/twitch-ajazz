@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Python Demo - 属性检查器</title>
+  <link rel="stylesheet" href="../../static/css/sdpi.css" />
+  <style>
+    .sdpi-item-label {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sdpi-wrapper" style="display: none">
+
+    <div type="select" class="sdpi-item">
+      <div class="sdpi-item-label">Кол-во смайлов</div>
+      <select id="emote_count_select" class="sdpi-item-value">
+        <option value="random">Random</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
+
+    <div id="range_settings_container" class="hidden">
+      <!-- Ползунок Минимум -->
+      <div type="range" class="sdpi-item" id="temperaturesliderMIN">
+        <div class="sdpi-item-label" id="min_title">Минимум: 1</div>
+        <input type="range" class="sdpi-item-value" id="min_range" min="1" max="5" value=37>
+      </div>
+      <!-- Ползунок Максимум -->
+      <div type="range" class="sdpi-item" id="temperaturesliderMAX">
+        <div class="sdpi-item-label" id="max_title">Максимум: 5</div>
+        <input type="range" class="sdpi-item-value" id="max_range" min="0" max="5" value=37>
+      </div>
+    </div>
+    <div id="debug"></div>
+
+  </div>
+  <script src="../../static/utils/common.js"></script>
+  <script src="../../static/action.js"></script>
+  <script src="speedemotes.js"></script>
+</body>
+
+</html>

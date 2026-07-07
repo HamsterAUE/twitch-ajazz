@@ -48,7 +48,7 @@
         "btn"
       ],
       "Name": "Speed Emotes",
-      "Tooltip": "ishowspeed"
+      "Tooltip": "ishowspeed",
       "PropertyInspectorPath": "properties/speedemotes/speedemotes.html"
     }
   ],
