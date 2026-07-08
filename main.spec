@@ -7,7 +7,9 @@ a = Analysis(
     binaries=[],
     datas=[
         ('src/actions', 'src/actions'),
-        ('src/core', 'src/core')
+        ('src/core', 'src/core'),
+        ('src/tools', 'src/tools'),
+        ('static', 'static')
     ],
     hiddenimports=[
         'websocket-client',

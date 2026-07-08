@@ -299,55 +299,11 @@ class hiismiles(SendRandomEmote):
         random.shuffle(greeting_emotes)
         return greeting_emotes
 
-    # def on_key_up(self, payload):
-    #     detected_streamer = self.get_current_twitch_streamer()
-    #     if not detected_streamer:
-    #         Logger.warning("[HiiSmiles] No Twitch tab detected.")
-    #         return
-    #     if detected_streamer != self.current_streamer:
-    #         # Вызываем метод обновления кэша
-    #         self.update_cache(detected_streamer)
-    #
-    #     valid_greeting_emotes = self.filter_hi_emotes()
-    #
-    #     if valid_greeting_emotes:
-    #
-    #         import pyperclip
-    #         import pyautogui
-    #         import keyboard
-    #
-    #         # Выбираем от 1 до 3 случайных приветственных смайликов
-    #         x = random.randint(1, 4)
-    #         count = min(x, len(valid_greeting_emotes))
-    #         chosen_smiles = random.sample(valid_greeting_emotes, count)
-    #         text_to_insert = " " + " ".join(chosen_smiles)
-    #
-    #         try:
-    #             # 1. Запоминаем текущий буфер
-    #             old_clipboard = pyperclip.paste()
-    #
-    #             # 2. Копируем наши смайлы
-    #             pyperclip.copy(text_to_insert)
-    #             Logger.info(f"[HiiSmiles] Копирование")
-    #             sleep(0.1)
-    #             keyboard.send("ctrl+v")
-    #             Logger.info(f"[HiiSmiles] Вставка {pyperclip.paste()}")
-    #             sleep(0.4)
-    #
-    #             # 5. Возвращаем старый текст
-    #             pyperclip.copy(old_clipboard)
-    #
-    #             Logger.info(f"[HiiSmiles] Успешно дозаписаны смайлики для {detected_streamer}: {text_to_insert}")
-    #         except Exception as e:
-    #             Logger.error(f"[HiiSmiles] Ошибка при эмуляции клавиатуры/буфера: {e}")
-    #     else:
-    #         Logger.warning(f"[HiiSmiles] На канале {detected_streamer} не найдено подходящих приветственных смайликов.")
-
 class speedemotes(SendRandomEmote):
     def __init__(self, action: str, context: str, settings: dict, plugin):
         super().__init__(action, context, settings, plugin)
         self.x = 1
-        self.KEYWORDS = ["speed", "ishowspeed", "RespectOhio"]
+        self.KEYWORDS = ["speed", "ishowspeed", "RespectOhio", "агатак"]
         self.TAGS = ["speed", "ishowspeed"]
         self.cached_emotes = []
         self.EXCLUDE = []

@@ -50,6 +50,22 @@
       "Name": "Speed Emotes",
       "Tooltip": "ishowspeed",
       "PropertyInspectorPath": "properties/speedemotes/speedemotes.html"
+    },
+    {
+      "UUID": "com.gamzder.seventv.actions.selflistener",
+      "Icon": "static/img/talk.png",
+      "state": 0,
+      "States": [
+        {
+          "FontSize": "11",
+          "FontStyle": "Bold",
+          "TitleAlignment": "bottom",
+          "Image": "static/img/mic_icon.png"
+        }
+      ],
+      "Settings": {},
+      "Name": "Прослушивание микрофона",
+      "Tooltip": "Включает/выключает прослушивание микрофона в Windows"
     }
   ],
   "Version": "1.0.0",
